@@ -1,12 +1,15 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { FiLogIn, FiMail, FiLock } from "react-icons/fi";
 
-const Login = () => {
+const Login = ({ setUser }) => {
+  const [error, setError] = useState("");
   const [formData, setFormData] = useState({
     email: "",
     password: "",
   });
+
+  const navigate = useNavigate();
 
   const [loading, setLoading] = useState(false);
 
@@ -19,12 +22,33 @@ const Login = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-
     setLoading(true);
+
+    /*
+
+    try{
+      const response = await axios.post("/api/login", formData)
+      if(response.ok){
+        const user = response.data;
+        localStorage.setItem("token", data.token);
+        setUser(user);
+        navigate("/");
+      } else {
+        setError("Invalid email or password.");
+      }catch (error) {
+        console.error("Login error:", error);
+        setError("An error occurred during login. Please try again." + {error.response?.data?.message});
+      }
+
+
+    */
 
     // Temporary fake login
     await new Promise((resolve) => setTimeout(resolve, 1000));
-
+    const user = { email: formData.email, name: "Demo User" };
+    localStorage.setItem("token", "a fake token");
+    setUser(user);
+    navigate("/");
     console.log("Login details:", formData);
 
     alert("Demo login successful!");
@@ -35,6 +59,7 @@ const Login = () => {
   return (
     <div className="login-page ">
       <div className="container ">
+        {error && <p className="text-danger">{error}</p>}
         <div className="login-card row g-0 ">
           {/* LEFT SIDE - LOGIN FORM */}
           <div className="col-lg-6 login-form-section ">
