@@ -212,6 +212,11 @@ body {
   position: relative;
 }
 
+.signup-image-section {
+  /* Replace this URL with your own mom + baby vector */
+  background-image: url("/signup-mom-baby.avif");
+}
+
 .image-overlay {
   position: absolute;
   inset: 0;
