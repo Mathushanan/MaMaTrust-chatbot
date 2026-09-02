@@ -51,8 +51,6 @@ const Login = ({ setUser }) => {
     navigate("/");
     console.log("Login details:", formData);
 
-    alert("Demo login successful!");
-
     setLoading(false);
   };
 
