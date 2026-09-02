@@ -536,8 +536,10 @@ body {
   text-decoration: none;
   background: #3f8491;
   color: white;
-  padding: 12px 20px;
+  padding: 8px 20px;
   border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 .chat-button:hover,
@@ -561,20 +563,86 @@ body {
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
 }
 
+.welcome-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.welcome-icon {
+  width: 50px;
+  height: 50px;
+  background: #e8f3f5;
+  color: #3f8491;
+  border-radius: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.welcome-title h2 {
+  margin: 0;
+}
+
+.welcome-title p {
+  margin: 3px 0 0;
+  color: #888;
+  font-size: 14px;
+}
+
+.welcome-description {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
+.welcome-title {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.welcome-icon {
+  width: 50px;
+  height: 50px;
+  background: #ffe5e7;
+  color: #e2555f;
+  border-radius: 14px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 24px;
+  flex-shrink: 0;
+}
+
+.welcome-title h2 {
+  margin: 0;
+}
+
+.welcome-title p {
+  margin: 3px 0 0;
+  color: #888;
+  font-size: 14px;
+}
+
+.welcome-description {
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 25px;
+}
+
 .welcome-card > svg,
 .feature-card > svg {
   font-size: 30px;
   color: #3f8491;
-}
-
-.welcome-card h2 {
-  margin-top: 15px;
-}
-
-.welcome-card p {
-  color: #666;
-  line-height: 1.7;
-  margin-bottom: 25px;
 }
 
 .info-card h3 {

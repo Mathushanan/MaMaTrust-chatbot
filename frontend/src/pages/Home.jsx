@@ -9,7 +9,7 @@ const Home = ({ user }) => {
       <div className="home-page">
         <div className="home-header">
           <div>
-            <h1>Welcome back, {user.name}! 👋</h1>
+            <h3>Welcome back, {user.name}! 👋</h3>
             <p>How can MamaTrust help you today?</p>
           </div>
 
@@ -21,9 +21,18 @@ const Home = ({ user }) => {
 
         <div className="home-content">
           <div className="welcome-card">
-            <FiHeart />
-            <h2>Your parenting assistant</h2>
-            <p>
+            <div className="welcome-title">
+              <div className="welcome-icon">
+                <FiHeart />
+              </div>
+
+              <div>
+                <h3>Your parenting assistant</h3>
+                <p>Here to support your feeding journey</p>
+              </div>
+            </div>
+
+            <p className="welcome-description">
               Ask MamaTrust anything about feeding, nutrition, introducing
               solids, allergies, picky eating, and more.
             </p>

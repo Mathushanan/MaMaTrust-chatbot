@@ -12,6 +12,7 @@ import Navbar from "./components/Navbar";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Home from "./pages/Home";
+import Chat from "./pages/Chat";
 // import axios from "axios";
 
 function App() {
@@ -61,6 +62,7 @@ function App() {
       <main className="app-content">
         <Routes>
           <Route path="/" element={<Home user={user} />} />
+          <Route path="/chat" element={<Chat user={user} />} />
 
           <Route
             path="/login"
