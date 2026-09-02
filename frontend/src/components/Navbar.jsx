@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import {
   FiHome,
   FiInfo,
@@ -51,6 +51,7 @@ const Navbar = ({ user, setUser }) => {
               <span>MaMaTrust</span>
               <div className="brand-icon">AI</div>
             </div>
+
             <small>AI Parenting Assistant</small>
           </div>
         </div>
@@ -59,42 +60,42 @@ const Navbar = ({ user, setUser }) => {
         <nav className="nav-menu">
           {!user ? (
             <>
-              <Link to="/" onClick={closeMenu}>
+              <NavLink to="/" onClick={closeMenu}>
                 <FiHome />
                 <span>Home</span>
-              </Link>
+              </NavLink>
 
-              <Link to="/about" onClick={closeMenu}>
+              <NavLink to="/about" onClick={closeMenu}>
                 <FiInfo />
                 <span>About</span>
-              </Link>
+              </NavLink>
 
-              <Link to="/contact" onClick={closeMenu}>
+              <NavLink to="/contact" onClick={closeMenu}>
                 <FiMail />
                 <span>Contact</span>
-              </Link>
+              </NavLink>
 
-              <Link to="/login" className="login-nav-link" onClick={closeMenu}>
+              <NavLink to="/login" onClick={closeMenu}>
                 <FiLogIn />
                 <span>Login</span>
-              </Link>
+              </NavLink>
             </>
           ) : (
             <>
-              <Link to="/chat" onClick={closeMenu}>
+              <NavLink to="/chat" onClick={closeMenu}>
                 <FiMessageCircle />
                 <span>Chat</span>
-              </Link>
+              </NavLink>
 
-              <Link to="/profile" onClick={closeMenu}>
+              <NavLink to="/profile" onClick={closeMenu}>
                 <FiUser />
                 <span>Profile</span>
-              </Link>
+              </NavLink>
 
-              <Link to="/settings" onClick={closeMenu}>
+              <NavLink to="/settings" onClick={closeMenu}>
                 <FiSettings />
                 <span>Settings</span>
-              </Link>
+              </NavLink>
             </>
           )}
         </nav>

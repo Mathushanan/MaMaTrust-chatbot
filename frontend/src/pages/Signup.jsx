@@ -82,7 +82,7 @@ const Signup = ({ setUser }) => {
 
     setLoading(false);
 
-    navigate("/");
+    navigate("/login");
   };
 
   return (
@@ -103,7 +103,7 @@ const Signup = ({ setUser }) => {
 
               {/* Heading */}
               <div className="mb-4">
-                <h1>Create account 👋</h1>
+                <h1>Create account 🍼</h1>
 
                 <p>Join & support your parenting journey!</p>
               </div>
