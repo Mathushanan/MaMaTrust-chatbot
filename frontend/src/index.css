@@ -667,9 +667,23 @@ body {
 }
 
 .hero-section {
-  max-width: 900px;
-  margin: 40px auto 70px;
-  text-align: center;
+  padding: 60px;
+  border-radius: 20px;
+}
+
+.hero-content {
+  padding-right: 30px;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-image img {
+  max-width: 100%;
+  height: auto;
 }
 
 .hero-badge {
@@ -682,8 +696,8 @@ body {
   font-weight: 600;
 }
 
-.hero-content h1 {
-  font-size: 46px;
+.hero-content h2 {
+  font-size: 36px;
   line-height: 1.2;
   margin: 25px 0;
 }
@@ -710,11 +724,30 @@ body {
 }
 
 .feature-card {
-  text-align: left;
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  text-align: center;
+}
+
+.feature-icon {
+  width: 55px;
+  height: 55px;
+  margin: 0 auto 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #e8f3f5;
+  color: #3f8491;
+
+  border-radius: 16px;
+  font-size: 26px;
 }
 
 .feature-card h3 {
-  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .feature-card p {

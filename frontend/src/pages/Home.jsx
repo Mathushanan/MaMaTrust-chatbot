@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FiMessageCircle, FiHeart, FiShield, FiClock } from "react-icons/fi";
+import momBaby from "../assets/images/mom-baby.png";
 
 const Home = ({ user }) => {
   // Logged-in home page
@@ -74,25 +75,33 @@ const Home = ({ user }) => {
   // Logged-out home page
   return (
     <div className="home-page">
-      <section className="hero-section">
-        <div className="hero-content">
-          <span className="hero-badge">AI Parenting Assistant</span>
+      <section className="hero-section ">
+        <div className="row align-items-center">
+          {/* LEFT SIDE - 70% TEXT */}
+          <div className="col-md-8 hero-content ">
+            <span className="hero-badge">AI Parenting Assistant</span>
 
-          <h1>
-            Supporting you through
-            <br />
-            every feeding journey. 💙
-          </h1>
+            <h2>
+              Supporting you through
+              <br />
+              every feeding journey.
+            </h2>
 
-          <p>
-            MamaTrust provides simple and reliable information about child
-            feeding and nutrition, helping parents and caregivers make informed
-            decisions for their little ones.
-          </p>
+            <p>
+              MamaTrust provides simple and reliable information about child
+              feeding and nutrition, helping parents and caregivers make
+              informed decisions for their little ones.
+            </p>
 
-          <Link to="/login" className="primary-button">
-            Get Started
-          </Link>
+            <Link to="/login" className="primary-button">
+              Get Started
+            </Link>
+          </div>
+
+          {/* RIGHT SIDE - IMAGE */}
+          <div className="col-md-4 hero-image ">
+            <img src={momBaby} alt="Mother and baby" className="img-fluid" />
+          </div>
         </div>
       </section>
 
@@ -100,23 +109,31 @@ const Home = ({ user }) => {
         <h2>How MamaTrust can help</h2>
 
         <div className="features-grid">
-          <div className="feature-card">
-            <FiMessageCircle />
-            <h3>Ask Questions</h3>
+          <div className="feature-card text-center">
+            <div className="feature-icon">
+              <FiMessageCircle />
+            </div>
+
+            <h4>Ask Questions</h4>
+
             <p>
               Get quick answers to your child feeding and nutrition questions.
             </p>
           </div>
 
           <div className="feature-card">
-            <FiHeart />
-            <h3>Age Appropriate</h3>
+            <div className="feature-icon">
+              <FiHeart />
+            </div>
+            <h4>Age Appropriate</h4>
             <p>Receive guidance based on your child's age and feeding stage.</p>
           </div>
 
           <div className="feature-card">
-            <FiShield />
-            <h3>Trusted Guidance</h3>
+            <div className="feature-icon">
+              <FiShield />
+            </div>
+            <h4>Trusted Guidance</h4>
             <p>
               Get helpful information designed to support informed feeding
               decisions.
@@ -124,12 +141,11 @@ const Home = ({ user }) => {
           </div>
 
           <div className="feature-card">
-            <FiClock />
-            <h3>Available Anytime</h3>
-            <p>
-              Access MamaTrust whenever you need help during your parenting
-              journey.
-            </p>
+            <div className="feature-icon">
+              <FiClock />
+            </div>
+            <h4>Available Anytime</h4>
+            <p>Access whenever you need help during your parenting journey.</p>
           </div>
         </div>
       </section>
