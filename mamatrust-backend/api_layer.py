@@ -38,12 +38,15 @@ a claim, not chunks.
 """
 
 from typing import Optional
+from datetime import date
+from pathlib import Path
 
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
 from agreement_scoring import score_claim, load_chunks
+from baby_profile import calculate_age, filter_chunks_for_age
 
 app = FastAPI(title="MamaTrustAI Agreement Scoring API", version="0.1.0")
 
@@ -77,6 +80,12 @@ class Chunk(BaseModel):
 class ScoreRequest(BaseModel):
     claim: str = Field(..., min_length=1, description="The parent's infant-feeding claim/question")
     chunks: list[Chunk] = Field(..., description="Evidence chunks retrieved for this claim")
+    baby_dob: Optional[date] = None
+
+
+class ChatRequest(BaseModel):
+    claim: str = Field(..., min_length=1, max_length=5000)
+    baby_dob: Optional[date] = None
 
 
 class Source(BaseModel):
@@ -120,8 +129,11 @@ def score(request: ScoreRequest):
     """
     try:
         chunk_dicts = [c.model_dump() for c in request.chunks]
-        result = score_claim(request.claim, chunk_dicts)
+        age = validated_age(request.baby_dob)
+        result = score_claim(request.claim, filter_chunks_for_age(chunk_dicts, age), baby_age=age)
         return ScoreResponse(**result.to_dict())
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Scoring failed: {e}")
 
@@ -133,8 +145,40 @@ def score_demo(claim: str):
     automatically, so you don't need to paste the full chunk list into
     every test call."""
     try:
-        chunks = load_chunks("real_chunks.json")
+        chunks = load_chunks(str(Path(__file__).with_name("real_chunks.json")))
         result = score_claim(claim, chunks)
         return result.to_dict()
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Scoring failed: {e}")
+
+# The chat UI uses a JSON body so the DOB is not put in the request URL.
+# Only calculated age is passed to the scorer/LLM; the raw DOB is not.
+def validated_age(baby_dob):
+    if baby_dob is None:
+        return None
+    try:
+        return calculate_age(baby_dob)
+    except ValueError as exc:
+        raise HTTPException(status_code=422, detail=str(exc)) from None
+
+
+@app.post("/score/chat")
+def score_chat(request: ChatRequest):
+    if not request.claim.strip():
+        raise HTTPException(status_code=422, detail="Please enter a question.")
+    age = validated_age(request.baby_dob)
+    try:
+        chunks = load_chunks(str(Path(__file__).with_name("real_chunks.json")))
+        selected = filter_chunks_for_age(chunks, age)
+        result = score_claim(request.claim, selected, baby_age=age).to_dict()
+        result["baby_age_months"] = age["age_months"] if age else None
+        result["age_filter"] = {
+            "applied": age is not None,
+            "total_chunks": len(chunks),
+            "retained_chunks": len(selected),
+        }
+        return result
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Scoring failed: {exc}") from None
