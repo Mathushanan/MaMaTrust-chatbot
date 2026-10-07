@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import { useState, useRef, useEffect } from "react";
 import { FiSend, FiMessageCircle, FiUser, FiHeart, FiAlertTriangle } from "react-icons/fi";
 import axios from "axios";
 import { ClipLoader } from "react-spinners";
@@ -8,6 +8,11 @@ const API_BASE_URL = "http://localhost:8000";
 
 const Chat = () => {
   const [message, setMessage] = useState("");
+  const [babyDob, setBabyDob] = useState("");
+  const [dobError, setDobError] = useState("");
+  // Use the browser's local calendar date, avoiding UTC date shifts.
+  const now = new Date();
+  const today = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, "0")}-${String(now.getDate()).padStart(2, "0")}`;
   const [isLoading, setIsLoading] = useState(false);
 
   const [messages, setMessages] = useState([
@@ -31,6 +36,11 @@ const Chat = () => {
     e.preventDefault();
 
     if (!message.trim() || isLoading) return;
+    if (babyDob && babyDob > today) {
+      setDobError("Please choose a date of birth that is today or earlier.");
+      return;
+    }
+    setDobError("");
 
     const userMessage = {
       id: Date.now(),
@@ -45,15 +55,10 @@ const Chat = () => {
     setIsLoading(true);
 
     try {
-      // Calls the real backend - /score/demo scores the claim against the
-      // local sample_chunks.json. Once Gayathri's real retrieval is wired
-      // in (Week 7), this can switch to /score with real retrieved chunks
-      // instead of the demo endpoint.
-      const response = await axios.post(
-        `${API_BASE_URL}/score/demo`,
-        null,
-        { params: { claim: currentMessage } }
-      );
+      const response = await axios.post(`${API_BASE_URL}/score/chat`, {
+        claim: currentMessage,
+        baby_dob: babyDob || null,
+      });
 
       const data = response.data;
 
@@ -75,7 +80,9 @@ const Chat = () => {
       const errorMessage = {
         id: Date.now() + 1,
         sender: "bot",
-        text: "Sorry, I'm having trouble reaching the MamaTrust service right now. Please check that the backend is running and try again.",
+        text: error.response?.status === 422
+          ? "Please check your question and the baby’s date of birth, then try again."
+          : "Sorry, I'm having trouble reaching the MamaTrust service right now. Please check that the backend is running and try again.",
       };
       setMessages((prev) => [...prev, errorMessage]);
     } finally {
@@ -95,6 +102,23 @@ const Chat = () => {
           <h2>MamaTrust Assistant</h2>
           <p>Your AI parenting & feeding assistant</p>
         </div>
+      </div>
+
+      <div className="baby-profile">
+        <label htmlFor="baby-dob">Baby’s date of birth (optional)</label>
+        <input
+          id="baby-dob"
+          type="date"
+          value={babyDob}
+          max={today}
+          onChange={(e) => { setBabyDob(e.target.value); setDobError(""); }}
+          disabled={isLoading}
+          aria-describedby="baby-dob-help"
+        />
+        {babyDob && <button type="button" disabled={isLoading}
+          onClick={() => { setBabyDob(""); setDobError(""); }}>Clear date</button>}
+        <small id="baby-dob-help">Used to consider your baby’s age in new answers.</small>
+        {dobError && <p className="baby-profile-error" role="alert">{dobError}</p>}
       </div>
 
       {/* Chat Messages */}
