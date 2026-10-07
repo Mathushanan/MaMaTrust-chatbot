@@ -1,0 +1,90 @@
+[
+  {
+    "chunk_id": "ascia_sample_001",
+    "source_name": "ASCIA Guideline: Infant Feeding for Food Allergy Prevention",
+    "source_url": "https://www.allergy.org.au/about-ascia/info-updates/updated-ascia-guideline-infant-feeding-for-food-allergy-prevention-published-january-2026",
+    "topic": "allergen-introduction",
+    "age_range": "4-6mo",
+    "source_type": "clinical",
+    "publish_date": "2026-01-19",
+    "text": "Introducing the most common food allergens in the first year of life, when infants show signs of readiness (usually around 6 months, not before 4 months), has been shown to reduce the risk of developing food allergy. Well-cooked whole egg and peanut should be introduced soon after starting solids.",
+    "escalation_flag": false
+  },
+  {
+    "chunk_id": "bsaci_sample_001",
+    "source_name": "BSACI Early Introduction of Food Allergens",
+    "source_url": "https://www.bsaci.org/resources/allergy-management/food-allergy/allergy-prevention/early-introduction-of-food-allergens/",
+    "topic": "allergen-introduction",
+    "age_range": "4-6mo",
+    "source_type": "clinical",
+    "publish_date": "2023-01-01",
+    "text": "Early introduction of allergenic foods, rather than avoidance, is now recommended as a strategy to reduce the risk of food allergy developing in infancy, in line with current international consensus.",
+    "escalation_flag": false
+  },
+  {
+    "chunk_id": "cps_sample_001",
+    "source_name": "CPS Position Statement - Allergenic Solids",
+    "source_url": "https://cps.ca/en/documents/position/allergenic-solids",
+    "topic": "allergen-introduction",
+    "age_range": "6-12mo",
+    "source_type": "clinical",
+    "publish_date": "2021-01-01",
+    "text": "Deliberately delaying the introduction of allergenic solids beyond 6 months of age is not recommended and may increase the risk of food allergy and eczema.",
+    "escalation_flag": false
+  },
+  {
+    "chunk_id": "who_sample_001",
+    "source_name": "WHO Complementary Feeding",
+    "source_url": "https://www.who.int/health-topics/complementary-feeding",
+    "topic": "solids-timing",
+    "age_range": "6-12mo",
+    "source_type": "clinical",
+    "publish_date": "2023-01-01",
+    "text": "Complementary foods should be introduced at 6 months of age while continuing to breastfeed, gradually increasing food quantity and variety as the infant grows.",
+    "escalation_flag": false
+  },
+  {
+    "chunk_id": "ascia_sample_002",
+    "source_name": "ASCIA Signs and Symptoms of Allergic Reactions",
+    "source_url": "https://www.allergy.org.au/hp/anaphylaxis/signs-and-symptoms-of-allergic-reactions",
+    "topic": "reaction-symptoms",
+    "age_range": "all",
+    "source_type": "clinical",
+    "publish_date": "2023-01-01",
+    "text": "Signs of a severe allergic reaction (anaphylaxis) include difficulty breathing, swelling of the tongue, swelling or tightness in the throat, wheeze or persistent cough, and persistent dizziness. This requires immediate emergency treatment.",
+    "escalation_flag": true
+  },
+  {
+    "chunk_id": "ascia_sample_003",
+    "source_name": "ASCIA Position Statement: Food Allergen Starter Packs for Infants",
+    "source_url": "https://www.allergy.org.au/hp/papers/infant-feeding-products",
+    "topic": "allergen-introduction",
+    "age_range": "4-6mo",
+    "source_type": "clinical",
+    "publish_date": "2026-01-19",
+    "text": "Infant formula based on alternative proteins, including goat milk, sheep milk, rice, oat, pea, or coconut protein, is not recommended for food allergy prevention due to a lack of supporting evidence.",
+    "escalation_flag": false
+  },
+  {
+    "chunk_id": "bsaci_sample_002",
+    "source_name": "BSACI Early Introduction of Food Allergens",
+    "source_url": "https://www.bsaci.org/resources/allergy-management/food-allergy/allergy-prevention/early-introduction-of-food-allergens/",
+    "topic": "allergen-introduction",
+    "age_range": "0-4mo",
+    "source_type": "clinical",
+    "publish_date": "2023-01-01",
+    "text": "Allergenic foods should not be introduced before 4 months of age, as infants are not developmentally ready for solid foods and breast milk or formula should remain the primary source of nutrition.",
+    "escalation_flag": false
+  },
+  {
+    "chunk_id": "who_sample_002",
+    "source_name": "WHO Complementary Feeding",
+    "source_url": "https://www.who.int/health-topics/complementary-feeding",
+    "topic": "solids-timing",
+    "age_range": "6-12mo",
+    "source_type": "clinical",
+    "publish_date": "2023-01-01",
+    "text": "Continued breastfeeding alongside complementary foods is recommended for as long as the mother and child wish to continue, ideally up to two years of age or beyond.",
+    "escalation_flag": false
+  }
+]
