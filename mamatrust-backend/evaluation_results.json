@@ -1,0 +1,2034 @@
+[
+  {
+    "question_id": "Q_LEAP01",
+    "claim": "What did the LEAP trial find about introducing peanut early to a high-risk baby?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP02",
+    "claim": "How big was the drop in peanut allergy risk in the LEAP trial?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP03",
+    "claim": "Does my baby need a peanut skin-prick test before I start peanut at home?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.8,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP04",
+    "claim": "What counts as 'high risk' for peanut allergy under the NIAID addendum criteria?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP05",
+    "claim": "Can I introduce peanut at home if my baby has no eczema and no known food allergy?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP06",
+    "claim": "Is there a recommended weekly amount of peanut protein for allergy prevention?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP07",
+    "claim": "What should happen if my baby's peanut skin-prick wheal comes back 8mm or larger?",
+    "expected": "Supported",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP08",
+    "claim": "Did the EAT study find the same benefit as LEAP for average-risk breastfed infants?",
+    "expected": "Partial",
+    "actual_verdict": "Partial",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP09",
+    "claim": "Is the evidence for early egg introduction as strong as it is for peanut?",
+    "expected": "Partial",
+    "actual_verdict": "Partial",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP10",
+    "claim": "Why was the STAR egg trial stopped early?",
+    "expected": "Supported",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP11",
+    "claim": "Did the German HEAP trial support introducing egg from 4-6 months?",
+    "expected": "Unsupported",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP12",
+    "claim": "What did the Japanese PETIT trial find about introducing egg early in eczema babies?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP13",
+    "claim": "Was there ever a formal national guideline recommending early egg introduction, the way there is for peanut?",
+    "expected": "Unsupported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP14",
+    "claim": "Do all high-risk babies need to see a specialist before starting peanut?",
+    "expected": "Partial",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_LEAP15",
+    "claim": "Is it actually safe to introduce peanut at home without any prior testing?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP16",
+    "claim": "Is peanut allergy testing before introduction easy to access everywhere?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.9,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP17",
+    "claim": "Should peanut be my baby's very first solid food?",
+    "expected": "Unsupported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP18",
+    "claim": "Is it okay to give my baby peanut for the first time at daycare or a restaurant?",
+    "expected": "Unsupported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP19",
+    "claim": "How long should I watch my baby after the first taste of peanut?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP20",
+    "claim": "Does a family history of allergy (not the baby's own eczema/egg allergy) make my baby 'high risk' under the NIAID criteria?",
+    "expected": "Unsupported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP21",
+    "claim": "My baby has mild-to-moderate eczema, not severe \u2014 how does that change peanut introduction?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP22",
+    "claim": "What's the difference between 'intention-to-treat' and 'per-protocol' results in the EAT study, and why does it matter for advice?",
+    "expected": "Partial",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP23",
+    "claim": "Overall, across all the egg trials, does earlier egg introduction reduce egg allergy risk?",
+    "expected": "Partial",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_LEAP24",
+    "claim": "Should I avoid giving peanut for the first time if my baby is a little unwell that day?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN01",
+    "claim": "When should I start introducing allergenic foods to my baby?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN02",
+    "claim": "Is it OK to introduce solids before 4 months if my baby seems ready?",
+    "expected": "Supported",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN03",
+    "claim": "What happens if I wait until 8 or 9 months to introduce allergenic foods?",
+    "expected": "Supported",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN04",
+    "claim": "How do I know if my baby is developmentally ready for solids?",
+    "expected": "Partial",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN05",
+    "claim": "My baby was born premature \u2014 should allergen introduction timing be adjusted?",
+    "expected": "Uncertain",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN06",
+    "claim": "I missed the 4-6 month window for peanut, is it too late now?",
+    "expected": "Supported",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN07",
+    "claim": "Does my baby need to sit without support before starting solids?",
+    "expected": "Partial",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN08",
+    "claim": "WHO says wait until 6 months for all complementary foods \u2014 does that include peanut and egg?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN09",
+    "claim": "Should I introduce solid foods other than peanut first, before giving peanut?",
+    "expected": "Supported",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN10",
+    "claim": "Is there a risk to introducing allergenic foods too early, before 3 months?",
+    "expected": "Supported",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN11",
+    "claim": "My baby has severe eczema, does that change when I introduce peanut?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN12",
+    "claim": "My baby has mild-to-moderate eczema, does peanut timing change?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN13",
+    "claim": "My baby has an egg allergy, should I still try peanut?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN14",
+    "claim": "My baby has no eczema and no known allergies, do I still need to be careful with allergen introduction?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN15",
+    "claim": "Is there a family history of allergy \u2014 does that mean I should introduce foods earlier?",
+    "expected": "Uncertain",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN16",
+    "claim": "My older child has a peanut allergy, is it safe to feed my baby peanut at home?",
+    "expected": "Uncertain",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN17",
+    "claim": "Can my baby's risk category change over time as they grow?",
+    "expected": "Uncertain",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN18",
+    "claim": "What counts as 'severe' eczema versus 'mild' eczema for allergy risk purposes?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN19",
+    "claim": "Does having asthma in the family affect when I should introduce allergenic foods?",
+    "expected": "Uncertain",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN20",
+    "claim": "If my baby tolerated egg fine, does that mean peanut will also be fine?",
+    "expected": "Uncertain",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN21",
+    "claim": "Do I need allergy testing before introducing peanut?",
+    "expected": "Partial",
+    "actual_verdict": "Partial",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN22",
+    "claim": "What's the difference between a skin prick test and a blood (IgE) test for peanut allergy?",
+    "expected": "Supported",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN23",
+    "claim": "My baby's peanut IgE test came back borderline, what does that mean?",
+    "expected": "Uncertain",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.8,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN24",
+    "claim": "Can allergy testing give a false result?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN25",
+    "claim": "Is it necessary to test for allergies to foods other than peanut before introducing them?",
+    "expected": "Supported",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN26",
+    "claim": "Should I wait for a specialist appointment before giving my baby peanut at all?",
+    "expected": "Partial",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN27",
+    "claim": "Is it safe to introduce peanut at home without any testing?",
+    "expected": "Partial",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN28",
+    "claim": "Why do some guidelines recommend testing before peanut and others don't?",
+    "expected": "Partial",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN29",
+    "claim": "How much peanut butter or egg counts as a full serving for allergen introduction?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN30",
+    "claim": "How often does my baby need to eat peanut to stay tolerant?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN31",
+    "claim": "What happens if we skip peanut for a week or two after introducing it?",
+    "expected": "Uncertain",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN32",
+    "claim": "Is a single small taste of peanut enough, or does my baby need a full serving?",
+    "expected": "Supported",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN33",
+    "claim": "What forms of peanut are safe to give an infant (peanut butter, Bamba, whole nuts)?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN34",
+    "claim": "Can I give my baby whole peanuts or a spoonful of peanut butter directly?",
+    "expected": "Escalate",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN35",
+    "claim": "Do I need to give allergenic foods every single day, or is a few times a week enough?",
+    "expected": "Supported",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN36",
+    "claim": "Does the exact amount of peanut protein matter, or just that we keep feeding it regularly?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.9,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN37",
+    "claim": "How should I prepare egg to reduce allergy risk \u2014 raw, cooked, or baked?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN38",
+    "claim": "Are store-bought allergen-introduction puffs or powders necessary, or can I use regular food?",
+    "expected": "Partial",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN39",
+    "claim": "Do I need to delay introducing cow's milk or dairy products?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN40",
+    "claim": "Is it OK to give my baby cow's milk as their main drink at 8 months?",
+    "expected": "Supported",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN41",
+    "claim": "Does drinking a lot of cow's milk increase my baby's risk of obesity or iron deficiency?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN42",
+    "claim": "Should I use formula or animal milk if I'm not breastfeeding after 6 months?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.9,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN43",
+    "claim": "Does my toddler need a 'young child formula' or fortified milk after 12 months?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.9,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN44",
+    "claim": "Is breastfeeding still recommended after my child turns one?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN45",
+    "claim": "My baby's lips swelled up after eating egg, what do I do?",
+    "expected": "Escalate",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN46",
+    "claim": "My baby is having trouble breathing after trying peanut butter, what should I do?",
+    "expected": "Escalate",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN47",
+    "claim": "My baby broke out in hives all over their body after a new food, is this an emergency?",
+    "expected": "Escalate",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN48",
+    "claim": "My baby vomited and seems suddenly very sleepy after trying a new food, is this serious?",
+    "expected": "Escalate",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN49",
+    "claim": "My baby had a mild rash after trying a new food, should I stop giving it?",
+    "expected": "Uncertain",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.9,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN50",
+    "claim": "Is it safe to give my baby honey?",
+    "expected": "Escalate",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN51",
+    "claim": "Is fennel tea safe for my baby's colic?",
+    "expected": "Escalate",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN52",
+    "claim": "Are rice-based drinks safe for my toddler?",
+    "expected": "Supported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN53",
+    "claim": "What should I watch for in the hours after giving my baby peanut for the first time?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN54",
+    "claim": "How long after introducing a new food could an allergic reaction show up?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN55",
+    "claim": "Should I do baby-led weaning or spoon-feed purees?",
+    "expected": "Supported",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN56",
+    "claim": "My baby refuses a new food the first time, should I stop offering it?",
+    "expected": "Supported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN57",
+    "claim": "When should my baby move from purees to lumpy or finger foods?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN58",
+    "claim": "Can I introduce two new allergenic foods on the same day?",
+    "expected": "Supported",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.8,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN59",
+    "claim": "Is it better to make my own baby food or use commercial jars and pouches?",
+    "expected": "Supported",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN60",
+    "claim": "How should I respond if my baby seems full or refuses to eat during a meal?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN61",
+    "claim": "Should I add salt or sugar to my baby's food to make it more appealing?",
+    "expected": "Supported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN62",
+    "claim": "Is it OK to give my baby fruit juice instead of water?",
+    "expected": "Supported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN63",
+    "claim": "We're raising our baby vegan \u2014 is that safe during complementary feeding?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN64",
+    "claim": "Does my baby need iron-rich foods, and which ones?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN65",
+    "claim": "Why do doctors now recommend early allergen introduction instead of avoidance?",
+    "expected": "Supported",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN66",
+    "claim": "How strong is the evidence behind early peanut introduction \u2014 is it just one study?",
+    "expected": "Supported",
+    "actual_verdict": "Partial",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN67",
+    "claim": "Does introducing peanut early actually reduce my baby's chance of developing a peanut allergy?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN68",
+    "claim": "Does eating gluten early or late affect the risk of celiac disease?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN69",
+    "claim": "Can early complementary feeding affect my baby's risk of type 1 diabetes?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN70",
+    "claim": "Does the amount of protein my baby eats affect their risk of later obesity?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN71",
+    "claim": "Does early introduction of allergens actually work at a population level, or just in clinical trials?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.9,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN72",
+    "claim": "Is it true that just introducing peanut once is enough to prevent allergy long-term?",
+    "expected": "Partial",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN73",
+    "claim": "Why do different countries have different advice on when to introduce allergens?",
+    "expected": "Partial",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN74",
+    "claim": "I read that WHO recommends breastfeeding to age 2 \u2014 is that based on strong evidence?",
+    "expected": "Partial",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN75",
+    "claim": "Is peanut allergy screening required by all major guidelines, or just some?",
+    "expected": "Partial",
+    "actual_verdict": "Partial",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN76",
+    "claim": "My doctor said something different from what I read online about allergen timing \u2014 who's right?",
+    "expected": "Uncertain",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN77",
+    "claim": "Are commercial multi-allergen infant food products backed by evidence that they prevent allergies?",
+    "expected": "Uncertain",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN78",
+    "claim": "Why did feeding advice change so much over the past 20 years?",
+    "expected": "Supported",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_EN79",
+    "claim": "Is breastfeeding while introducing allergens recommended, or does it interfere with tolerance building?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EN80",
+    "claim": "Does introducing peanut early affect how long I can keep breastfeeding?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_BC01",
+    "claim": "When should I start introducing allergenic foods to my baby?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_BC02",
+    "claim": "My baby has eczema, does that change when I introduce peanut?",
+    "expected": "Supported",
+    "actual_verdict": "Partial",
+    "actual_escalate": false,
+    "confidence": 0.85,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_BC03",
+    "claim": "Is there a family history of allergy \u2014 does that mean I should introduce foods earlier?",
+    "expected": "Partial",
+    "actual_verdict": "Partial",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_BC04",
+    "claim": "Can I give my baby peanut butter for the first time at home, or does it need to be at a clinic?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_BC05",
+    "claim": "Should I introduce egg before or after peanut?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_BC06",
+    "claim": "Do I need to delay introducing cow's milk or dairy products?",
+    "expected": "Supported",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.8,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_BC07",
+    "claim": "My baby had a mild rash after trying a new food, should I stop giving it?",
+    "expected": "Uncertain",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_BC08",
+    "claim": "My baby's lips swelled up after eating egg, what do I do?",
+    "expected": "Escalate",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_BC09",
+    "claim": "Is breastfeeding while introducing allergens recommended?",
+    "expected": "Supported",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_BC10",
+    "claim": "Do I need to introduce allergenic foods in a specific order?",
+    "expected": "Supported",
+    "actual_verdict": "Partial",
+    "actual_escalate": false,
+    "confidence": 0.85,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_BC11",
+    "claim": "How much peanut butter or egg counts as a full serving for allergen introduction?",
+    "expected": "Supported",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_BC12",
+    "claim": "My baby was born premature, should allergen introduction timing be different?",
+    "expected": "Uncertain",
+    "actual_verdict": null,
+    "actual_escalate": null,
+    "correct": false,
+    "error": "No chunks mapped to this question_id"
+  },
+  {
+    "question_id": "Q_ASIA01",
+    "claim": "Do the Western early-introduction guidelines apply the same way in Asia?",
+    "expected": "Partial",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA02",
+    "claim": "Is peanut allergy as common in Asia as it is in the UK, US or Australia?",
+    "expected": "Unsupported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA03",
+    "claim": "Which food allergens are most common for babies in Japan and Thailand?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA04",
+    "claim": "Is shellfish allergy something I need to think about introducing early for my baby?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA05",
+    "claim": "Does egg allergy prevention matter more than peanut in most Asian countries?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA06",
+    "claim": "Should peanut still be introduced early to my baby if we live somewhere peanut allergy is rare?",
+    "expected": "Partial",
+    "actual_verdict": "Partial",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA07",
+    "claim": "My baby has severe eczema \u2014 does APAPARI recommend allergy testing before allergenic foods, like the US guidelines do?",
+    "expected": "Supported",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA08",
+    "claim": "If I don't have easy access to an allergist, can I still safely introduce egg to my high-risk baby?",
+    "expected": "Supported",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 0.85,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA09",
+    "claim": "Does being of Asian ethnicity but living in a Western country change my baby's allergy risk?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA10",
+    "claim": "Is delaying egg, peanut, and shellfish past 10 months definitely bad for my baby if we live in Singapore?",
+    "expected": "Partial",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA11",
+    "claim": "What age should healthy babies with no risk factors start solids, according to APAPARI?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA12",
+    "claim": "My baby has a family history of allergy but no eczema \u2014 should I delay any foods?",
+    "expected": "Unsupported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA13",
+    "claim": "What's considered 'severe eczema' under the APAPARI recommendations?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA14",
+    "claim": "Is there good local (Asian-population) evidence behind these recommendations, or is it mostly borrowed from Western studies?",
+    "expected": "Partial",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA15",
+    "claim": "Should I get a skin-prick test done before introducing egg if my baby has severe eczema and we live somewhere with good allergy specialist access?",
+    "expected": "Supported",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA16",
+    "claim": "What if I have no access to allergy specialists at all and my baby has severe eczema \u2014 is there still a safe path to introducing egg or peanut?",
+    "expected": "Supported",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA17",
+    "claim": "Does wheat allergy risk mean I should delay wheat-based foods for my baby in Japan or Thailand?",
+    "expected": "Unsupported",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA18",
+    "claim": "Should I keep breastfeeding alongside starting solids?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA19",
+    "claim": "Is there a set gram amount or dose APAPARI recommends for introducing egg or peanut, the way NIAID gives 2g peanut protein?",
+    "expected": "Unsupported",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA20",
+    "claim": "Does living in Asia versus migrating to Australia change a baby's actual allergy risk, or is that just genetics?",
+    "expected": "Partial",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA21",
+    "claim": "Should peanut sensitization be screened for even if we live somewhere peanut allergy is uncommon?",
+    "expected": "Unsupported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA22",
+    "claim": "Are the skin-prick test thresholds from UK/Australian studies directly usable for my baby in Asia?",
+    "expected": "Unsupported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA23",
+    "claim": "After my baby passes a supervised food challenge, how soon should the food go into their regular diet?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ASIA24",
+    "claim": "If my baby is sensitized and fails a food challenge, does that mean we give up on that food for good?",
+    "expected": "Partial",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA01",
+    "claim": "Can eating more fish or fish oil during pregnancy lower my baby's risk of asthma or allergies?",
+    "expected": "Partial",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA02",
+    "claim": "What dose of omega-3 was used in the study that showed reduced childhood wheeze and asthma?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA03",
+    "claim": "Does omega-3 supplementation in pregnancy help prevent eczema in babies?",
+    "expected": "Partial",
+    "actual_verdict": "Partial",
+    "actual_escalate": false,
+    "confidence": 0.85,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA04",
+    "claim": "Does omega-3 during pregnancy prevent food allergy in babies?",
+    "expected": "Partial",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA05",
+    "claim": "Is there a recommended daily amount of omega-3 for pregnant or breastfeeding women for allergy prevention?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA06",
+    "claim": "Should I eat wild or farmed salmon while pregnant for omega-3 benefits?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA07",
+    "claim": "Are fish oil supplements safe to take while pregnant or breastfeeding?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA08",
+    "claim": "Does eating fish during my baby's first year help prevent eczema or allergic rhinitis?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA09",
+    "claim": "If I already eat a lot of omega-6 foods (like vegetable oils), does that cancel out any benefit from omega-3?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA10",
+    "claim": "Is it worth taking an omega-3 supplement if I already eat fish regularly?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA11",
+    "claim": "How much omega-3 does the SIAIP position paper suggest as a daily target for high-risk pregnancies?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA12",
+    "claim": "Does the amount of omega-3 matter, or is any amount of fish oil during pregnancy equally helpful?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA13",
+    "claim": "Is omega-3 supplementation an alternative to introducing allergenic solids early?",
+    "expected": "Unsupported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA14",
+    "claim": "Does maternal fish/shellfish intake during pregnancy raise the baby's allergy risk instead of lowering it?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.9,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA15",
+    "claim": "My baby's father has asthma \u2014 would taking omega-3 supplements in pregnancy specifically help prevent asthma in the baby?",
+    "expected": "Partial",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA16",
+    "claim": "What are good food sources of omega-3 EPA and DHA, versus sources that don't convert well?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA17",
+    "claim": "Is there a recommended DHA intake for babies once they start eating solids?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA18",
+    "claim": "Are there safety concerns with high-dose omega-3 supplements in pregnancy?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA19",
+    "claim": "Does the type of omega-3 product (fish oil vs algae vs krill) matter for allergy prevention?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA20",
+    "claim": "I'm vegetarian/vegan \u2014 can I still get enough omega-3 for allergy-prevention purposes?",
+    "expected": "Partial",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA21",
+    "claim": "Does how I cook fish affect how much omega-3 my baby and I actually get?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_PUFA22",
+    "claim": "Does this position paper recommend a specific supplement brand or product?",
+    "expected": "Unsupported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM01",
+    "claim": "Should I avoid eating common allergens like milk, egg, or nuts while pregnant to protect my baby?",
+    "expected": "Unsupported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM02",
+    "claim": "Does eating peanut myself while pregnant and breastfeeding help protect my baby from peanut allergy?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM03",
+    "claim": "Does eating a more varied diet in pregnancy lower my baby's allergy risk?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM04",
+    "claim": "Does breastfeeding protect my baby against developing food allergy?",
+    "expected": "Partial",
+    "actual_verdict": "Partial",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM05",
+    "claim": "Is longer breastfeeding (past 6 months) always better for reducing food allergy risk?",
+    "expected": "Partial",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM06",
+    "claim": "Overall, across recent trials, does introducing allergenic foods earlier reduce a baby's risk of food allergy?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM07",
+    "claim": "Is there a specific age range where early introduction works best?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM08",
+    "claim": "Should I give my baby a little bit of formula in the first few days of life if I'm mostly breastfeeding?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.9,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM09",
+    "claim": "Do partially hydrolyzed 'hypoallergenic' formulas actually prevent allergy?",
+    "expected": "Partial",
+    "actual_verdict": "Partial",
+    "actual_escalate": false,
+    "confidence": 0.9,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM10",
+    "claim": "Are all 'hypoallergenic' or partially hydrolyzed formulas the same when it comes to allergy prevention?",
+    "expected": "Unsupported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM11",
+    "claim": "What do Russian pediatric guidelines say about hypoallergenic diets in pregnancy?",
+    "expected": "Unsupported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM12",
+    "claim": "Does my baby's diet during the newborn period affect their tolerance to cow's milk protein later?",
+    "expected": "Partial",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM13",
+    "claim": "If breastfeeding continues for more than 6 months, could that actually delay when I introduce solids and raise allergy risk indirectly?",
+    "expected": "Partial",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM14",
+    "claim": "Should cow's milk formula be avoided completely for a breastfed baby in the first week of life?",
+    "expected": "Partial",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM15",
+    "claim": "Is there evidence that a mother's diet during breastfeeding raises her baby's IgG4 (a tolerance marker) to foods she eats?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM16",
+    "claim": "Does the Russian Union of Pediatricians recommend early allergen introduction the same way Western guidelines do?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM17",
+    "claim": "Is there solid trial evidence, or mostly small/inconsistent studies, behind partially hydrolyzed formula claims?",
+    "expected": "Partial",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM18",
+    "claim": "Should a formula be trusted as 'allergy preventive' just because it's labeled hypoallergenic or partially hydrolyzed?",
+    "expected": "Unsupported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM19",
+    "claim": "Is there proof that eating fewer allergenic foods while breastfeeding lowers my baby's allergy risk?",
+    "expected": "Unsupported",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.9,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM20",
+    "claim": "Are pregnant women at risk of nutrient deficiency if they follow elimination diets to try to prevent their baby's allergies?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM21",
+    "claim": "Should exclusively breastfed infants start allergenic solids at a different age than formula-fed infants?",
+    "expected": "Unsupported",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_ELIM22",
+    "claim": "Of all the strategies covered \u2014 early introduction, breastfeeding, hydrolyzed formula \u2014 which has the strongest evidence for preventing food allergy?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI01",
+    "claim": "What does the EAACI guideline recommend about introducing egg to prevent egg allergy?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI02",
+    "claim": "Should egg be given raw or well-cooked when first introduced?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI03",
+    "claim": "What does EAACI recommend about introducing peanut?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI04",
+    "claim": "Does EAACI recommend avoiding potential allergens during pregnancy or breastfeeding?",
+    "expected": "Unsupported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI05",
+    "claim": "Should I supplement my breastfed baby with cow's milk formula in the first week of life?",
+    "expected": "Unsupported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI06",
+    "claim": "Does EAACI recommend soy formula for allergy prevention in the first 6 months?",
+    "expected": "Unsupported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI07",
+    "claim": "Does EAACI have a position on BCG vaccination and food allergy prevention?",
+    "expected": "Unsupported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI08",
+    "claim": "Does breastfeeding prevent food allergy, according to EAACI?",
+    "expected": "Partial",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI09",
+    "claim": "Does EAACI recommend a specific hydrolyzed or hypoallergenic formula for allergy prevention?",
+    "expected": "Partial",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI10",
+    "claim": "Should I give my baby vitamin supplements or fish oil specifically to prevent food allergy?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 0.95,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI11",
+    "claim": "Do probiotics or prebiotics for me or my baby help prevent food allergy?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI12",
+    "claim": "Will using daily emollient/moisturizer on my baby's skin prevent food allergy?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI13",
+    "claim": "How much egg protein per week is the EAACI recommendation based on?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI14",
+    "claim": "How much peanut protein per week is the EAACI recommendation based on?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI15",
+    "claim": "How confident is EAACI in the egg recommendation \u2014 is it a strong 'must-do' or more of a conditional suggestion?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI16",
+    "claim": "How confident is EAACI in the peanut recommendation?",
+    "expected": "Supported",
+    "actual_verdict": "Supported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": true,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI17",
+    "claim": "Does EAACI recommend preventive oral immunotherapy for babies who haven't developed a food allergy yet?",
+    "expected": "Unsupported",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI18",
+    "claim": "Is it fine for my breastfed baby to get regular cow's milk formula occasionally after the first week of life?",
+    "expected": "Partial",
+    "actual_verdict": "Uncertain",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI19",
+    "claim": "Does EAACI say what age range these recommendations apply to?",
+    "expected": "Supported",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI20",
+    "claim": "Do these EAACI recommendations apply to babies who already have symptoms suggesting a food allergy?",
+    "expected": "Unsupported",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI21",
+    "claim": "Was every EAACI recommendation agreed on unanimously by the guideline panel?",
+    "expected": "Supported",
+    "actual_verdict": "Unsupported",
+    "actual_escalate": false,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  },
+  {
+    "question_id": "Q_EAACI22",
+    "claim": "Does EAACI give specific guidance for premature babies or adjusted/corrected age?",
+    "expected": "Unsupported",
+    "actual_verdict": "Escalate",
+    "actual_escalate": true,
+    "confidence": 1.0,
+    "correct": false,
+    "error": null
+  }
+]
