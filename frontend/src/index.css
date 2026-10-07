@@ -1039,3 +1039,57 @@ body {
   background: #eeeaff;
   color: #6c63c7;
 }
+
+/* --- Added for backend integration: escalation banner + source citations --- */
+
+.escalation-banner {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: #fff3dc;
+  color: #a15c00;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.escalation-banner svg {
+  flex-shrink: 0;
+}
+
+.message-sources {
+  margin-top: 10px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.sources-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #888;
+  margin: 0 0 4px 0;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.message-sources ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.message-sources li {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.message-sources a {
+  color: #3a7ca5;
+  text-decoration: underline;
+}
+
+.source-stance {
+  color: #888;
+}
