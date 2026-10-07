@@ -117,13 +117,26 @@ Respond with ONLY a JSON object, no other text, in exactly this shape:
 """
 
 
-def build_user_prompt(claim: str, chunks: list[dict]) -> str:
+def build_user_prompt(claim: str, chunks: list[dict], baby_age: Optional[dict] = None) -> str:
     chunk_block = "\n\n".join(
         f"[chunk_id: {c['chunk_id']}] ({c['source_name']}, {c.get('publish_date', 'n.d.')})\n"
-        f"{c['text']}"
+        + (f"Age scope: {c.get('age_range', 'unspecified')}\n" if baby_age is not None else "") + f"{c['text']}"
         for c in chunks
     )
-    return f"CLAIM: \"{claim}\"\n\nEVIDENCE CHUNKS:\n\n{chunk_block}"
+    context = ""
+    if baby_age is not None:
+        context = (
+            f"BABY AGE: {baby_age['age_months']} completed calendar months "
+            f"({baby_age['age_days']} days).\n"
+            "Use this age when interpreting the question. Distinguish recommendations "
+            "for this baby from research or guidance about other ages or maternal stages. "
+            "Do not infer readiness for solids, allergy risk, or preterm corrected age "
+            "from chronological age alone. Broad or unclear age labels were retained; "
+            "check the actual text before treating a chunk as applicable. "
+            "If evidence does not answer the question for this age, say so rather than "
+            "using an out-of-age recommendation.\n\n"
+        )
+    return context + f'CLAIM: "{claim}"\n\nEVIDENCE CHUNKS:\n\n{chunk_block}'
 
 
 # ---------------------------------------------------------------------
@@ -256,7 +269,7 @@ class ScoringResult:
         }
 
 
-def score_claim(claim: str, chunks: list[dict]) -> ScoringResult:
+def score_claim(claim: str, chunks: list[dict], baby_age: Optional[dict] = None) -> ScoringResult:
     """Main entry point. This is the function the API layer skeleton
     should call: score_claim(claim, chunks) -> ScoringResult"""
     if not chunks:
@@ -270,7 +283,7 @@ def score_claim(claim: str, chunks: list[dict]) -> ScoringResult:
             escalation_reason="No retrieved evidence to ground a response.",
         )
 
-    user_prompt = build_user_prompt(claim, chunks)
+    user_prompt = build_user_prompt(claim, chunks, baby_age)
     raw = call_llm(SYSTEM_PROMPT, user_prompt)
     parsed = parse_llm_response(raw)
 
