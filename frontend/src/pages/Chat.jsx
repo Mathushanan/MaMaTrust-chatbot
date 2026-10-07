@@ -1,8 +1,14 @@
 import React, { useState, useRef, useEffect } from "react";
-import { FiSend, FiMessageCircle, FiUser, FiHeart } from "react-icons/fi";
+import { FiSend, FiMessageCircle, FiUser, FiHeart, FiAlertTriangle } from "react-icons/fi";
+import axios from "axios";
+import { ClipLoader } from "react-spinners";
+
+// Backend URL - change this if you deploy the API somewhere other than localhost.
+const API_BASE_URL = "http://localhost:8000";
 
 const Chat = () => {
   const [message, setMessage] = useState("");
+  const [isLoading, setIsLoading] = useState(false);
 
   const [messages, setMessages] = useState([
     {
@@ -19,12 +25,12 @@ const Chat = () => {
     messagesEndRef.current?.scrollIntoView({
       behavior: "smooth",
     });
-  }, [messages]);
+  }, [messages, isLoading]);
 
   const handleSend = async (e) => {
     e.preventDefault();
 
-    if (!message.trim()) return;
+    if (!message.trim() || isLoading) return;
 
     const userMessage = {
       id: Date.now(),
@@ -36,18 +42,45 @@ const Chat = () => {
 
     const currentMessage = message;
     setMessage("");
+    setIsLoading(true);
 
-    // Temporary fake AI response
-    setTimeout(() => {
+    try {
+      // Calls the real backend - /score/demo scores the claim against the
+      // local sample_chunks.json. Once Gayathri's real retrieval is wired
+      // in (Week 7), this can switch to /score with real retrieved chunks
+      // instead of the demo endpoint.
+      const response = await axios.post(
+        `${API_BASE_URL}/score/demo`,
+        null,
+        { params: { claim: currentMessage } }
+      );
+
+      const data = response.data;
+
       const botMessage = {
         id: Date.now() + 1,
         sender: "bot",
-        status: "supported",
-        text: `Thanks for your question! MamaTrust will provide guidance about "${currentMessage}".`,
+        // Backend sends "Supported"/"Unsupported"/"Uncertain" (capitalized);
+        // CSS classes are lowercase, so convert here to match.
+        status: data.verdict ? data.verdict.toLowerCase() : undefined,
+        text: data.explanation,
+        sources: data.sources || [],
+        escalate: data.escalate,
+        escalationReason: data.escalation_reason,
       };
 
       setMessages((prev) => [...prev, botMessage]);
-    }, 1000);
+    } catch (error) {
+      console.error("Error calling MamaTrust API:", error);
+      const errorMessage = {
+        id: Date.now() + 1,
+        sender: "bot",
+        text: "Sorry, I'm having trouble reaching the MamaTrust service right now. Please check that the backend is running and try again.",
+      };
+      setMessages((prev) => [...prev, errorMessage]);
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -88,7 +121,36 @@ const Chat = () => {
                   </span>
                 )}
 
+                {msg.sender === "bot" && msg.escalate && (
+                  <div className="escalation-banner">
+                    <FiAlertTriangle />
+                    <span>
+                      {msg.escalationReason ||
+                        "Please consult a healthcare professional about this."}
+                    </span>
+                  </div>
+                )}
+
                 <div>{msg.text}</div>
+
+                {/* Source citations - links back to the real guideline pages */}
+                {msg.sender === "bot" && msg.sources && msg.sources.length > 0 && (
+                  <div className="message-sources">
+                    <p className="sources-label">Sources:</p>
+                    <ul>
+                      {msg.sources.map((src) => (
+                        <li key={src.chunk_id}>
+                          <a href={src.source_url} target="_blank" rel="noopener noreferrer">
+                            {src.source_name}
+                          </a>
+                          {src.stance && (
+                            <span className="source-stance"> — {src.stance}</span>
+                          )}
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                )}
               </div>
             </div>
 
@@ -100,6 +162,20 @@ const Chat = () => {
             )}
           </div>
         ))}
+
+        {/* Loading indicator while waiting for the backend */}
+        {isLoading && (
+          <div className="message-row bot-message">
+            <div className="message-avatar bot-avatar">
+              <FiHeart />
+            </div>
+            <div className="message-content">
+              <div className="message-bubble">
+                <ClipLoader size={16} color="#888" />
+              </div>
+            </div>
+          </div>
+        )}
 
         <div ref={messagesEndRef}></div>
       </div>
@@ -132,9 +208,10 @@ const Chat = () => {
           placeholder="Ask MamaTrust about feeding or nutrition..."
           value={message}
           onChange={(e) => setMessage(e.target.value)}
+          disabled={isLoading}
         />
 
-        <button type="submit" disabled={!message.trim()}>
+        <button type="submit" disabled={!message.trim() || isLoading}>
           <FiSend />
         </button>
       </form>
