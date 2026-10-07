@@ -1,0 +1,375 @@
+{
+  "question_count": 206,
+  "chunk_count": 205,
+  "class_counts": {
+    "Supported": 103,
+    "Partial": 56,
+    "Unsupported": 26,
+    "Uncertain": 13,
+    "Escalate": 8
+  },
+  "missing_mapping_counts": {
+    "Partial": 6,
+    "Supported": 14,
+    "Uncertain": 7,
+    "Escalate": 1
+  },
+  "questions_without_mapped_chunks": [
+    {
+      "question_id": "Q_LEAP14",
+      "parent_question": "Do all high-risk babies need to see a specialist before starting peanut?",
+      "baby_age": "4-6mo",
+      "expected_classification": "Partial",
+      "expected_answer_type": "Standard answer + source list, surface both positions",
+      "category": "BSACI/CPS-specific"
+    },
+    {
+      "question_id": "Q_EN02",
+      "parent_question": "Is it OK to introduce solids before 4 months if my baby seems ready?",
+      "baby_age": "0-4mo",
+      "expected_classification": "Supported",
+      "expected_answer_type": "Standard answer + source list",
+      "category": "ESPGHAN-specific"
+    },
+    {
+      "question_id": "Q_EN03",
+      "parent_question": "What happens if I wait until 8 or 9 months to introduce allergenic foods?",
+      "baby_age": "6-12mo",
+      "expected_classification": "Supported",
+      "expected_answer_type": "Standard answer + source list",
+      "category": "Core/shared"
+    },
+    {
+      "question_id": "Q_EN04",
+      "parent_question": "How do I know if my baby is developmentally ready for solids?",
+      "baby_age": "4-6mo",
+      "expected_classification": "Partial",
+      "expected_answer_type": "Standard answer + source list, surface both positions",
+      "category": "WHO-conflict"
+    },
+    {
+      "question_id": "Q_EN05",
+      "parent_question": "My baby was born premature — should allergen introduction timing be adjusted?",
+      "baby_age": "4-6mo (adjusted)",
+      "expected_classification": "Uncertain",
+      "expected_answer_type": "Standard answer + source list, flag to seek advice",
+      "category": "ESPGHAN/NIAID-specific"
+    },
+    {
+      "question_id": "Q_EN06",
+      "parent_question": "I missed the 4-6 month window for peanut, is it too late now?",
+      "baby_age": "6-12mo",
+      "expected_classification": "Supported",
+      "expected_answer_type": "Standard answer + source list",
+      "category": "NIAID-specific"
+    },
+    {
+      "question_id": "Q_EN09",
+      "parent_question": "Should I introduce solid foods other than peanut first, before giving peanut?",
+      "baby_age": "4-6mo",
+      "expected_classification": "Supported",
+      "expected_answer_type": "Standard answer + source list",
+      "category": "NIAID-specific"
+    },
+    {
+      "question_id": "Q_EN10",
+      "parent_question": "Is there a risk to introducing allergenic foods too early, before 3 months?",
+      "baby_age": "0-4mo",
+      "expected_classification": "Supported",
+      "expected_answer_type": "Standard answer + source list",
+      "category": "ESPGHAN-specific"
+    },
+    {
+      "question_id": "Q_EN15",
+      "parent_question": "Is there a family history of allergy — does that mean I should introduce foods earlier?",
+      "baby_age": "4-6mo",
+      "expected_classification": "Uncertain",
+      "expected_answer_type": "Standard answer + source list, flag to seek advice",
+      "category": "ESPGHAN/NIAID-specific"
+    },
+    {
+      "question_id": "Q_EN17",
+      "parent_question": "Can my baby's risk category change over time as they grow?",
+      "baby_age": "6-12mo",
+      "expected_classification": "Uncertain",
+      "expected_answer_type": "Standard answer + source list, flag to seek advice",
+      "category": "Core/shared"
+    },
+    {
+      "question_id": "Q_EN19",
+      "parent_question": "Does having asthma in the family affect when I should introduce allergenic foods?",
+      "baby_age": "4-6mo",
+      "expected_classification": "Uncertain",
+      "expected_answer_type": "Standard answer + source list, flag to seek advice",
+      "category": "Core/shared"
+    },
+    {
+      "question_id": "Q_EN20",
+      "parent_question": "If my baby tolerated egg fine, does that mean peanut will also be fine?",
+      "baby_age": "4-6mo",
+      "expected_classification": "Uncertain",
+      "expected_answer_type": "Standard answer + source list, flag to seek advice",
+      "category": "Core/shared"
+    },
+    {
+      "question_id": "Q_EN22",
+      "parent_question": "What's the difference between a skin prick test and a blood (IgE) test for peanut allergy?",
+      "baby_age": "4-6mo",
+      "expected_classification": "Supported",
+      "expected_answer_type": "Standard answer + source list",
+      "category": "NIAID-specific"
+    },
+    {
+      "question_id": "Q_EN25",
+      "parent_question": "Is it necessary to test for allergies to foods other than peanut before introducing them?",
+      "baby_age": "4-6mo",
+      "expected_classification": "Supported",
+      "expected_answer_type": "Standard answer + source list",
+      "category": "NIAID-specific"
+    },
+    {
+      "question_id": "Q_EN26",
+      "parent_question": "Should I wait for a specialist appointment before giving my baby peanut at all?",
+      "baby_age": "4-6mo",
+      "expected_classification": "Partial",
+      "expected_answer_type": "Standard answer + source list, surface both positions",
+      "category": "NIAID-specific"
+    },
+    {
+      "question_id": "Q_EN27",
+      "parent_question": "Is it safe to introduce peanut at home without any testing?",
+      "baby_age": "4-6mo",
+      "expected_classification": "Partial",
+      "expected_answer_type": "Standard answer + source list, surface both positions",
+      "category": "Core/shared"
+    },
+    {
+      "question_id": "Q_EN28",
+      "parent_question": "Why do some guidelines recommend testing before peanut and others don't?",
+      "baby_age": "4-6mo",
+      "expected_classification": "Partial",
+      "expected_answer_type": "Standard answer + source list, surface both positions",
+      "category": "WHO-conflict"
+    },
+    {
+      "question_id": "Q_EN31",
+      "parent_question": "What happens if we skip peanut for a week or two after introducing it?",
+      "baby_age": "6-12mo",
+      "expected_classification": "Uncertain",
+      "expected_answer_type": "Standard answer + source list, flag to seek advice",
+      "category": "Core/shared"
+    },
+    {
+      "question_id": "Q_EN32",
+      "parent_question": "Is a single small taste of peanut enough, or does my baby need a full serving?",
+      "baby_age": "4-6mo",
+      "expected_classification": "Supported",
+      "expected_answer_type": "Standard answer + source list",
+      "category": "NIAID-specific"
+    },
+    {
+      "question_id": "Q_EN35",
+      "parent_question": "Do I need to give allergenic foods every single day, or is a few times a week enough?",
+      "baby_age": "6-12mo",
+      "expected_classification": "Supported",
+      "expected_answer_type": "Standard answer + source list",
+      "category": "Core/shared"
+    },
+    {
+      "question_id": "Q_EN40",
+      "parent_question": "Is it OK to give my baby cow's milk as their main drink at 8 months?",
+      "baby_age": "6-12mo",
+      "expected_classification": "Supported",
+      "expected_answer_type": "Standard answer + source list",
+      "category": "ESPGHAN/WHO-specific"
+    },
+    {
+      "question_id": "Q_EN59",
+      "parent_question": "Is it better to make my own baby food or use commercial jars and pouches?",
+      "baby_age": "6-12mo",
+      "expected_classification": "Supported",
+      "expected_answer_type": "Standard answer + source list",
+      "category": "ESPGHAN-specific"
+    },
+    {
+      "question_id": "Q_EN65",
+      "parent_question": "Why do doctors now recommend early allergen introduction instead of avoidance?",
+      "baby_age": "4-6mo",
+      "expected_classification": "Supported",
+      "expected_answer_type": "Standard answer + source list",
+      "category": "Core/shared"
+    },
+    {
+      "question_id": "Q_EN74",
+      "parent_question": "I read that WHO recommends breastfeeding to age 2 — is that based on strong evidence?",
+      "baby_age": "12-23mo",
+      "expected_classification": "Partial",
+      "expected_answer_type": "Standard answer + source list, surface both positions",
+      "category": "WHO-conflict"
+    },
+    {
+      "question_id": "Q_EN78",
+      "parent_question": "Why did feeding advice change so much over the past 20 years?",
+      "baby_age": "4-6mo",
+      "expected_classification": "Supported",
+      "expected_answer_type": "Standard answer + source list",
+      "category": "Core/shared"
+    },
+    {
+      "question_id": "Q_BC08",
+      "parent_question": "My baby's lips swelled up after eating egg, what do I do?",
+      "baby_age": "6-12mo",
+      "expected_classification": "Escalate",
+      "expected_answer_type": "Safety response, no RAG",
+      "category": "Core/shared"
+    },
+    {
+      "question_id": "Q_BC09",
+      "parent_question": "Is breastfeeding while introducing allergens recommended?",
+      "baby_age": "4-6mo",
+      "expected_classification": "Supported",
+      "expected_answer_type": "Standard answer + source list",
+      "category": "BSACI/CPS-specific"
+    },
+    {
+      "question_id": "Q_BC12",
+      "parent_question": "My baby was born premature, should allergen introduction timing be different?",
+      "baby_age": "4-6mo (adjusted)",
+      "expected_classification": "Uncertain",
+      "expected_answer_type": "Standard answer + source list, flag to seek advice",
+      "category": "BSACI/CPS-specific"
+    }
+  ],
+  "flagged_chunks": [
+    {
+      "chunk_id": "leap_2017_005",
+      "source_name": "Greenhawt & Fleischer — Primary Prevention of Food Allergy (Curr Allergy Asthma Rep 2017)",
+      "source_url": "https://doi.org/10.1007/s11882-017-0692-3",
+      "topic": "testing-thresholds",
+      "age_range": "4-6mo",
+      "source_type": "review (RCT synthesis)",
+      "guidance_status": "current (summarizes LEAP/EAT/egg RCTs + 2017 NIAID addendum)",
+      "publish_date": "2017-04-18",
+      "text": "Under the NIAID addendum, a peanut skin-prick wheal of 0-2mm supports home introduction; 3-7mm supports an in-office supervised feeding or graded challenge; 8mm or larger is treated as probable allergy, and the infant should be managed as allergic, though in-office introduction can still be considered if the family and provider agree.",
+      "escalation_flag": true,
+      "maps_to_question_id": "Q_LEAP03, Q_LEAP07"
+    },
+    {
+      "chunk_id": "leap_2017_008",
+      "source_name": "Greenhawt & Fleischer — Primary Prevention of Food Allergy (Curr Allergy Asthma Rep 2017)",
+      "source_url": "https://doi.org/10.1007/s11882-017-0692-3",
+      "topic": "egg-trials-star",
+      "age_range": "4mo",
+      "source_type": "review (RCT synthesis)",
+      "guidance_status": "current (summarizes LEAP/EAT/egg RCTs + 2017 NIAID addendum)",
+      "publish_date": "2017-04-18",
+      "text": "The STAR trial gave raw pasteurized egg powder from 4 months to eczema-affected infants but was stopped prematurely: about a third of the 4-month-old participants were already both egg-sensitized and reactive to egg at trial entry, suggesting some infants were sensitized before the trial even started. The trend favored egg introduction (33% vs 51% egg allergy at 12 months) but did not reach statistical significance.",
+      "escalation_flag": true,
+      "maps_to_question_id": "Q_LEAP10"
+    },
+    {
+      "chunk_id": "leap_2017_011",
+      "source_name": "Greenhawt & Fleischer — Primary Prevention of Food Allergy (Curr Allergy Asthma Rep 2017)",
+      "source_url": "https://doi.org/10.1007/s11882-017-0692-3",
+      "topic": "egg-trials-heap",
+      "age_range": "4-6mo",
+      "source_type": "review (RCT synthesis)",
+      "guidance_status": "current (summarizes LEAP/EAT/egg RCTs + 2017 NIAID addendum)",
+      "publish_date": "2017-04-18",
+      "text": "The German HEAP trial found no significant reduction in egg sensitization or allergy with thrice-weekly raw pasteurized egg from 4-6 months, and three of twelve already egg-sensitized infants in the intervention arm had severe reactions on first exposure — evidence against introducing egg this way without prior screening in that population.",
+      "escalation_flag": true,
+      "maps_to_question_id": "Q_LEAP11"
+    },
+    {
+      "chunk_id": "asia_2018_007",
+      "source_name": "Tham et al. — APAPARI Consensus: Early Allergenic Food Introduction, Asian Perspective (Pediatr Allergy Immunol 2018)",
+      "source_url": "https://doi.org/10.1111/pai.12820",
+      "topic": "apapari-recommendation-highrisk",
+      "age_range": "4-10mo",
+      "source_type": "consensus statement",
+      "guidance_status": "current (APAPARI regional adaptation of Western guidance)",
+      "publish_date": "2018-01-01",
+      "text": "For infants with severe eczema (high risk), APAPARI recommends beginning clinical evaluation (history, skin-prick and/or specific IgE testing, focused on egg and peanut where peanut prevalence is high) from 4 months of age but ideally not later than 10 months, in countries with ready access to allergy expertise, followed by supervised oral food challenge if sensitized.",
+      "escalation_flag": true,
+      "maps_to_question_id": "Q_ASIA07, Q_ASIA13, Q_ASIA15"
+    },
+    {
+      "chunk_id": "asia_2018_008",
+      "source_name": "Tham et al. — APAPARI Consensus: Early Allergenic Food Introduction, Asian Perspective (Pediatr Allergy Immunol 2018)",
+      "source_url": "https://doi.org/10.1111/pai.12820",
+      "topic": "apapari-limited-access-pathway",
+      "age_range": "4-10mo",
+      "source_type": "consensus statement",
+      "guidance_status": "current (APAPARI regional adaptation of Western guidance)",
+      "publish_date": "2018-01-01",
+      "text": "In countries with limited access to allergy expertise, APAPARI recommends that families who want early introduction for a severely eczematous infant have careful oral food challenges performed in the office of a doctor trained in recognizing and managing allergic reactions, rather than skipping supervision altogether.",
+      "escalation_flag": true,
+      "maps_to_question_id": "Q_ASIA08, Q_ASIA16"
+    },
+    {
+      "chunk_id": "asia_2018_019",
+      "source_name": "Tham et al. — APAPARI Consensus: Early Allergenic Food Introduction, Asian Perspective (Pediatr Allergy Immunol 2018)",
+      "source_url": "https://doi.org/10.1111/pai.12820",
+      "topic": "failed-challenge-management",
+      "age_range": "4-10mo",
+      "source_type": "consensus statement",
+      "guidance_status": "current (APAPARI regional adaptation of Western guidance)",
+      "publish_date": "2018-01-01",
+      "text": "If an infant is sensitized and does not pass a supervised oral food challenge, that specific food is avoided in the regular diet for the time being, and the family is guided to re-evaluate later with their allergy provider rather than treating the result as a permanent restriction.",
+      "escalation_flag": true,
+      "maps_to_question_id": "Q_ASIA24"
+    },
+    {
+      "chunk_id": "elim_2025_006",
+      "source_name": "Shakhova et al. — Evolution of Approaches to Primary Prevention of Food Allergy: Elimination to Early Introduction (Current Pediatrics 2025)",
+      "source_url": "https://doi.org/10.15690/vsp.v24i6.2978",
+      "topic": "cows-milk-formula-timing-mixed",
+      "age_range": "first days-weeks",
+      "source_type": "review",
+      "guidance_status": "current",
+      "publish_date": "2025-12-16",
+      "text": "Evidence on cow's milk formula timing is mixed: a Japanese study (Sakihara et al. 2021) found adding a small amount of cow's-milk-based formula around 2 months of age significantly reduced later cow's milk allergy in breastfed infants, whereas the ABS trial (Urashima et al. 2019) found introducing unmodified cow's-milk-protein formula within the first 3 days of life increased the risk of cow's milk allergy compared with an amino-acid formula — suggesting a possible 'window of tolerance' that opens somewhat later than the immediate newborn period.",
+      "escalation_flag": true,
+      "maps_to_question_id": "Q_ELIM08, Q_ELIM12, Q_ELIM14"
+    },
+    {
+      "chunk_id": "eaaci_2021_015",
+      "source_name": "Halken et al. — EAACI Guideline: Preventing the Development of Food Allergy in Infants and Young Children (2020 update, Pediatr Allergy Immunol 2021)",
+      "source_url": "https://doi.org/10.1111/pai.13496",
+      "topic": "scope-of-guideline",
+      "age_range": "0-5y",
+      "source_type": "clinical guideline (GRADE)",
+      "guidance_status": "current (EAACI intends next update ~2026)",
+      "publish_date": "2021-02-27",
+      "text": "All EAACI recommendations in this guideline apply to infants up to 1 year and young children up to 5 years, regardless of their baseline risk of allergy, and are intended for infants who have not yet developed a food allergy; children with symptoms suggestive of existing food allergy should be referred to a specialist allergy service rather than managed under these prevention recommendations.",
+      "escalation_flag": true,
+      "maps_to_question_id": "Q_EAACI19, Q_EAACI20"
+    },
+    {
+      "chunk_id": "eaaci_2021_019",
+      "source_name": "Halken et al. — EAACI Guideline: Preventing the Development of Food Allergy in Infants and Young Children (2020 update, Pediatr Allergy Immunol 2021)",
+      "source_url": "https://doi.org/10.1111/pai.13496",
+      "topic": "no-premature-infant-guidance",
+      "age_range": "preterm infant",
+      "source_type": "clinical guideline (GRADE)",
+      "guidance_status": "current (EAACI intends next update ~2026)",
+      "publish_date": "2021-02-27",
+      "text": "This guideline does not include a specific recommendation or corrected-age adjustment for premature infants; its recommendations are stated generally for infants up to 1 year and young children up to 5 years, without a stated premature-infant subgroup analysis.",
+      "escalation_flag": true,
+      "maps_to_question_id": "Q_EAACI22"
+    },
+    {
+      "chunk_id": "niaid_extract_020",
+      "source_name": "NIAID Addendum Guidelines for the Prevention of Peanut Allergy in the United States",
+      "source_url": "https://www.niaid.nih.gov/sites/default/files/addendum-peanut-allergy-prevention-guidelines.pdf",
+      "topic": "reaction-symptoms",
+      "age_range": "all",
+      "source_type": "clinical",
+      "guidance_status": "current",
+      "publish_date": "2017-01-01",
+      "text": "Mild allergic reaction symptoms include a new rash or a few hives around the mouth/face; more severe symptoms include lip/face/tongue swelling, vomiting, widespread hives, difficulty breathing, wheeze, repetitive coughing, change in skin color, or sudden lethargy - any of which warrant immediate medical attention.",
+      "escalation_flag": true,
+      "maps_to_question_id": "Q_EN45, Q_EN46, Q_EN47, Q_EN48, Q_EN49"
+    }
+  ]
+}
