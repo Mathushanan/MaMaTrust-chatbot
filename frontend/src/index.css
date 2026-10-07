@@ -1093,3 +1093,25 @@ body {
 .source-stance {
   color: #888;
 }
+
+/* Optional baby age context for chat */
+.baby-profile {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 13px;
+}
+.baby-profile label { font-weight: 600; color: #374151; }
+.baby-profile input, .baby-profile button {
+  padding: 7px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 7px;
+  background: white;
+  color: #374151;
+}
+.baby-profile small { color: #64748b; }
+.baby-profile-error { width: 100%; margin: 0; color: #b42318; }
+.response-tag.escalate { background: #ffe5e7; color: #a12630; }
