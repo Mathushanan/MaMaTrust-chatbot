@@ -1,0 +1,1650 @@
+[
+  {
+    "question_id": "Q_LEAP01",
+    "parent_question": "What did the LEAP trial find about introducing peanut early to a high-risk baby?",
+    "baby_age": "4-11mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_LEAP02",
+    "parent_question": "How big was the drop in peanut allergy risk in the LEAP trial?",
+    "baby_age": "4-11mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "LEAP-specific"
+  },
+  {
+    "question_id": "Q_LEAP03",
+    "parent_question": "Does my baby need a peanut skin-prick test before I start peanut at home?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "BSACI/CPS-specific"
+  },
+  {
+    "question_id": "Q_LEAP04",
+    "parent_question": "What counts as 'high risk' for peanut allergy under the NIAID addendum criteria?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_LEAP05",
+    "parent_question": "Can I introduce peanut at home if my baby has no eczema and no known food allergy?",
+    "baby_age": "around 6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_LEAP06",
+    "parent_question": "Is there a recommended weekly amount of peanut protein for allergy prevention?",
+    "baby_age": "4-11mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, give practical amount",
+    "category": "LEAP-specific"
+  },
+  {
+    "question_id": "Q_LEAP07",
+    "parent_question": "What should happen if my baby's peanut skin-prick wheal comes back 8mm or larger?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, escalate to specialist",
+    "category": "LEAP-specific"
+  },
+  {
+    "question_id": "Q_LEAP08",
+    "parent_question": "Did the EAT study find the same benefit as LEAP for average-risk breastfed infants?",
+    "baby_age": "3mo onward",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_LEAP09",
+    "parent_question": "Is the evidence for early egg introduction as strong as it is for peanut?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_LEAP10",
+    "parent_question": "Why was the STAR egg trial stopped early?",
+    "baby_age": "4mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "LEAP-specific"
+  },
+  {
+    "question_id": "Q_LEAP11",
+    "parent_question": "Did the German HEAP trial support introducing egg from 4-6 months?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, note trial found no benefit and some reactions",
+    "category": "LEAP-specific"
+  },
+  {
+    "question_id": "Q_LEAP12",
+    "parent_question": "What did the Japanese PETIT trial find about introducing egg early in eczema babies?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "LEAP-specific"
+  },
+  {
+    "question_id": "Q_LEAP13",
+    "parent_question": "Was there ever a formal national guideline recommending early egg introduction, the way there is for peanut?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, flag as an evidence gap as of this 2017 review",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_LEAP14",
+    "parent_question": "Do all high-risk babies need to see a specialist before starting peanut?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "BSACI/CPS-specific"
+  },
+  {
+    "question_id": "Q_LEAP15",
+    "parent_question": "Is it actually safe to introduce peanut at home without any prior testing?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_LEAP16",
+    "parent_question": "Is peanut allergy testing before introduction easy to access everywhere?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, note resource/access limitations",
+    "category": "LEAP-specific"
+  },
+  {
+    "question_id": "Q_LEAP17",
+    "parent_question": "Should peanut be my baby's very first solid food?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, advise against",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_LEAP18",
+    "parent_question": "Is it okay to give my baby peanut for the first time at daycare or a restaurant?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, advise against, first taste at home",
+    "category": "BSACI/CPS-specific"
+  },
+  {
+    "question_id": "Q_LEAP19",
+    "parent_question": "How long should I watch my baby after the first taste of peanut?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, give practical watch-time",
+    "category": "BSACI/CPS-specific"
+  },
+  {
+    "question_id": "Q_LEAP20",
+    "parent_question": "Does a family history of allergy (not the baby's own eczema/egg allergy) make my baby 'high risk' under the NIAID criteria?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, clarify criteria",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_LEAP21",
+    "parent_question": "My baby has mild-to-moderate eczema, not severe \u2014 how does that change peanut introduction?",
+    "baby_age": "around 6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_LEAP22",
+    "parent_question": "What's the difference between 'intention-to-treat' and 'per-protocol' results in the EAT study, and why does it matter for advice?",
+    "baby_age": "3mo onward",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, explain nuance",
+    "category": "LEAP-specific"
+  },
+  {
+    "question_id": "Q_LEAP23",
+    "parent_question": "Overall, across all the egg trials, does earlier egg introduction reduce egg allergy risk?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, meta-analysis view vs individual trial view",
+    "category": "LEAP-specific"
+  },
+  {
+    "question_id": "Q_LEAP24",
+    "parent_question": "Should I avoid giving peanut for the first time if my baby is a little unwell that day?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, practical tip",
+    "category": "BSACI/CPS-specific"
+  },
+  {
+    "question_id": "Q_EN01",
+    "parent_question": "When should I start introducing allergenic foods to my baby?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN02",
+    "parent_question": "Is it OK to introduce solids before 4 months if my baby seems ready?",
+    "baby_age": "0-4mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN03",
+    "parent_question": "What happens if I wait until 8 or 9 months to introduce allergenic foods?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN04",
+    "parent_question": "How do I know if my baby is developmentally ready for solids?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "WHO-conflict"
+  },
+  {
+    "question_id": "Q_EN05",
+    "parent_question": "My baby was born premature \u2014 should allergen introduction timing be adjusted?",
+    "baby_age": "4-6mo (adjusted)",
+    "expected_classification": "Uncertain",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "ESPGHAN/NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN06",
+    "parent_question": "I missed the 4-6 month window for peanut, is it too late now?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN07",
+    "parent_question": "Does my baby need to sit without support before starting solids?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "WHO-conflict"
+  },
+  {
+    "question_id": "Q_EN08",
+    "parent_question": "WHO says wait until 6 months for all complementary foods \u2014 does that include peanut and egg?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "WHO-conflict"
+  },
+  {
+    "question_id": "Q_EN09",
+    "parent_question": "Should I introduce solid foods other than peanut first, before giving peanut?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN10",
+    "parent_question": "Is there a risk to introducing allergenic foods too early, before 3 months?",
+    "baby_age": "0-4mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN11",
+    "parent_question": "My baby has severe eczema, does that change when I introduce peanut?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN12",
+    "parent_question": "My baby has mild-to-moderate eczema, does peanut timing change?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN13",
+    "parent_question": "My baby has an egg allergy, should I still try peanut?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN14",
+    "parent_question": "My baby has no eczema and no known allergies, do I still need to be careful with allergen introduction?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN15",
+    "parent_question": "Is there a family history of allergy \u2014 does that mean I should introduce foods earlier?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Uncertain",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "ESPGHAN/NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN16",
+    "parent_question": "My older child has a peanut allergy, is it safe to feed my baby peanut at home?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Uncertain",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN17",
+    "parent_question": "Can my baby's risk category change over time as they grow?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Uncertain",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN18",
+    "parent_question": "What counts as 'severe' eczema versus 'mild' eczema for allergy risk purposes?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN19",
+    "parent_question": "Does having asthma in the family affect when I should introduce allergenic foods?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Uncertain",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN20",
+    "parent_question": "If my baby tolerated egg fine, does that mean peanut will also be fine?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Uncertain",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN21",
+    "parent_question": "Do I need allergy testing before introducing peanut?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN22",
+    "parent_question": "What's the difference between a skin prick test and a blood (IgE) test for peanut allergy?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN23",
+    "parent_question": "My baby's peanut IgE test came back borderline, what does that mean?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Uncertain",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN24",
+    "parent_question": "Can allergy testing give a false result?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN25",
+    "parent_question": "Is it necessary to test for allergies to foods other than peanut before introducing them?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN26",
+    "parent_question": "Should I wait for a specialist appointment before giving my baby peanut at all?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN27",
+    "parent_question": "Is it safe to introduce peanut at home without any testing?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN28",
+    "parent_question": "Why do some guidelines recommend testing before peanut and others don't?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "WHO-conflict"
+  },
+  {
+    "question_id": "Q_EN29",
+    "parent_question": "How much peanut butter or egg counts as a full serving for allergen introduction?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN30",
+    "parent_question": "How often does my baby need to eat peanut to stay tolerant?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN31",
+    "parent_question": "What happens if we skip peanut for a week or two after introducing it?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Uncertain",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN32",
+    "parent_question": "Is a single small taste of peanut enough, or does my baby need a full serving?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN33",
+    "parent_question": "What forms of peanut are safe to give an infant (peanut butter, Bamba, whole nuts)?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN34",
+    "parent_question": "Can I give my baby whole peanuts or a spoonful of peanut butter directly?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Escalate",
+    "expected_answer_type": "Safety response, no RAG",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN35",
+    "parent_question": "Do I need to give allergenic foods every single day, or is a few times a week enough?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN36",
+    "parent_question": "Does the exact amount of peanut protein matter, or just that we keep feeding it regularly?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "WHO-conflict"
+  },
+  {
+    "question_id": "Q_EN37",
+    "parent_question": "How should I prepare egg to reduce allergy risk \u2014 raw, cooked, or baked?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN38",
+    "parent_question": "Are store-bought allergen-introduction puffs or powders necessary, or can I use regular food?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN39",
+    "parent_question": "Do I need to delay introducing cow's milk or dairy products?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN/WHO-specific"
+  },
+  {
+    "question_id": "Q_EN40",
+    "parent_question": "Is it OK to give my baby cow's milk as their main drink at 8 months?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN/WHO-specific"
+  },
+  {
+    "question_id": "Q_EN41",
+    "parent_question": "Does drinking a lot of cow's milk increase my baby's risk of obesity or iron deficiency?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN42",
+    "parent_question": "Should I use formula or animal milk if I'm not breastfeeding after 6 months?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "WHO-conflict"
+  },
+  {
+    "question_id": "Q_EN43",
+    "parent_question": "Does my toddler need a 'young child formula' or fortified milk after 12 months?",
+    "baby_age": "12-23mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "WHO-conflict"
+  },
+  {
+    "question_id": "Q_EN44",
+    "parent_question": "Is breastfeeding still recommended after my child turns one?",
+    "baby_age": "12-23mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "WHO-conflict"
+  },
+  {
+    "question_id": "Q_EN45",
+    "parent_question": "My baby's lips swelled up after eating egg, what do I do?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Escalate",
+    "expected_answer_type": "Safety response, no RAG",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN46",
+    "parent_question": "My baby is having trouble breathing after trying peanut butter, what should I do?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Escalate",
+    "expected_answer_type": "Safety response, no RAG",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN47",
+    "parent_question": "My baby broke out in hives all over their body after a new food, is this an emergency?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Escalate",
+    "expected_answer_type": "Safety response, no RAG",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN48",
+    "parent_question": "My baby vomited and seems suddenly very sleepy after trying a new food, is this serious?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Escalate",
+    "expected_answer_type": "Safety response, no RAG",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN49",
+    "parent_question": "My baby had a mild rash after trying a new food, should I stop giving it?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Uncertain",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "ESPGHAN/NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN50",
+    "parent_question": "Is it safe to give my baby honey?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Escalate",
+    "expected_answer_type": "Safety response, no RAG",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN51",
+    "parent_question": "Is fennel tea safe for my baby's colic?",
+    "baby_age": "0-4mo",
+    "expected_classification": "Escalate",
+    "expected_answer_type": "Safety response, no RAG",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN52",
+    "parent_question": "Are rice-based drinks safe for my toddler?",
+    "baby_age": "12-23mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN53",
+    "parent_question": "What should I watch for in the hours after giving my baby peanut for the first time?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN54",
+    "parent_question": "How long after introducing a new food could an allergic reaction show up?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN55",
+    "parent_question": "Should I do baby-led weaning or spoon-feed purees?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN56",
+    "parent_question": "My baby refuses a new food the first time, should I stop offering it?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN57",
+    "parent_question": "When should my baby move from purees to lumpy or finger foods?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN58",
+    "parent_question": "Can I introduce two new allergenic foods on the same day?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN59",
+    "parent_question": "Is it better to make my own baby food or use commercial jars and pouches?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN60",
+    "parent_question": "How should I respond if my baby seems full or refuses to eat during a meal?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN61",
+    "parent_question": "Should I add salt or sugar to my baby's food to make it more appealing?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN62",
+    "parent_question": "Is it OK to give my baby fruit juice instead of water?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN63",
+    "parent_question": "We're raising our baby vegan \u2014 is that safe during complementary feeding?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN64",
+    "parent_question": "Does my baby need iron-rich foods, and which ones?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN65",
+    "parent_question": "Why do doctors now recommend early allergen introduction instead of avoidance?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN66",
+    "parent_question": "How strong is the evidence behind early peanut introduction \u2014 is it just one study?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN67",
+    "parent_question": "Does introducing peanut early actually reduce my baby's chance of developing a peanut allergy?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "NIAID-specific"
+  },
+  {
+    "question_id": "Q_EN68",
+    "parent_question": "Does eating gluten early or late affect the risk of celiac disease?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN69",
+    "parent_question": "Can early complementary feeding affect my baby's risk of type 1 diabetes?",
+    "baby_age": "0-4mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN70",
+    "parent_question": "Does the amount of protein my baby eats affect their risk of later obesity?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN71",
+    "parent_question": "Does early introduction of allergens actually work at a population level, or just in clinical trials?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "WHO-conflict"
+  },
+  {
+    "question_id": "Q_EN72",
+    "parent_question": "Is it true that just introducing peanut once is enough to prevent allergy long-term?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "WHO-conflict"
+  },
+  {
+    "question_id": "Q_EN73",
+    "parent_question": "Why do different countries have different advice on when to introduce allergens?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "WHO-conflict"
+  },
+  {
+    "question_id": "Q_EN74",
+    "parent_question": "I read that WHO recommends breastfeeding to age 2 \u2014 is that based on strong evidence?",
+    "baby_age": "12-23mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "WHO-conflict"
+  },
+  {
+    "question_id": "Q_EN75",
+    "parent_question": "Is peanut allergy screening required by all major guidelines, or just some?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "WHO-conflict"
+  },
+  {
+    "question_id": "Q_EN76",
+    "parent_question": "My doctor said something different from what I read online about allergen timing \u2014 who's right?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Uncertain",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN77",
+    "parent_question": "Are commercial multi-allergen infant food products backed by evidence that they prevent allergies?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Uncertain",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN78",
+    "parent_question": "Why did feeding advice change so much over the past 20 years?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EN79",
+    "parent_question": "Is breastfeeding while introducing allergens recommended, or does it interfere with tolerance building?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN-specific"
+  },
+  {
+    "question_id": "Q_EN80",
+    "parent_question": "Does introducing peanut early affect how long I can keep breastfeeding?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ESPGHAN/NIAID-specific"
+  },
+  {
+    "question_id": "Q_BC01",
+    "parent_question": "When should I start introducing allergenic foods to my baby?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_BC02",
+    "parent_question": "My baby has eczema, does that change when I introduce peanut?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_BC03",
+    "parent_question": "Is there a family history of allergy \u2014 does that mean I should introduce foods earlier?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_BC04",
+    "parent_question": "Can I give my baby peanut butter for the first time at home, or does it need to be at a clinic?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "BSACI/CPS-specific"
+  },
+  {
+    "question_id": "Q_BC05",
+    "parent_question": "Should I introduce egg before or after peanut?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_BC06",
+    "parent_question": "Do I need to delay introducing cow's milk or dairy products?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "BSACI/CPS-specific"
+  },
+  {
+    "question_id": "Q_BC07",
+    "parent_question": "My baby had a mild rash after trying a new food, should I stop giving it?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Uncertain",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "BSACI/CPS-specific"
+  },
+  {
+    "question_id": "Q_BC08",
+    "parent_question": "My baby's lips swelled up after eating egg, what do I do?",
+    "baby_age": "6-12mo",
+    "expected_classification": "Escalate",
+    "expected_answer_type": "Safety response, no RAG",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_BC09",
+    "parent_question": "Is breastfeeding while introducing allergens recommended?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "BSACI/CPS-specific"
+  },
+  {
+    "question_id": "Q_BC10",
+    "parent_question": "Do I need to introduce allergenic foods in a specific order?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_BC11",
+    "parent_question": "How much peanut butter or egg counts as a full serving for allergen introduction?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "BSACI/CPS-specific"
+  },
+  {
+    "question_id": "Q_BC12",
+    "parent_question": "My baby was born premature, should allergen introduction timing be different?",
+    "baby_age": "4-6mo (adjusted)",
+    "expected_classification": "Uncertain",
+    "expected_answer_type": "Standard answer + source list, flag to seek advice",
+    "category": "BSACI/CPS-specific"
+  },
+  {
+    "question_id": "Q_ASIA01",
+    "parent_question": "Do the Western early-introduction guidelines apply the same way in Asia?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_ASIA02",
+    "parent_question": "Is peanut allergy as common in Asia as it is in the UK, US or Australia?",
+    "baby_age": "general",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, explain regional difference",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA03",
+    "parent_question": "Which food allergens are most common for babies in Japan and Thailand?",
+    "baby_age": "general",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA04",
+    "parent_question": "Is shellfish allergy something I need to think about introducing early for my baby?",
+    "baby_age": "general",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, note this is a late-childhood allergen in the region, not an infant-introduction priority",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA05",
+    "parent_question": "Does egg allergy prevention matter more than peanut in most Asian countries?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA06",
+    "parent_question": "Should peanut still be introduced early to my baby if we live somewhere peanut allergy is rare?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA07",
+    "parent_question": "My baby has severe eczema \u2014 does APAPARI recommend allergy testing before allergenic foods, like the US guidelines do?",
+    "baby_age": "4-10mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, note it depends on access to allergy specialists",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA08",
+    "parent_question": "If I don't have easy access to an allergist, can I still safely introduce egg to my high-risk baby?",
+    "baby_age": "4-10mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, escalate if reaction occurs",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA09",
+    "parent_question": "Does being of Asian ethnicity but living in a Western country change my baby's allergy risk?",
+    "baby_age": "general",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, explain observational finding",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA10",
+    "parent_question": "Is delaying egg, peanut, and shellfish past 10 months definitely bad for my baby if we live in Singapore?",
+    "baby_age": "10mo+",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, note conflicting cohort evidence (GUSTO)",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA11",
+    "parent_question": "What age should healthy babies with no risk factors start solids, according to APAPARI?",
+    "baby_age": "around 6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_ASIA12",
+    "parent_question": "My baby has a family history of allergy but no eczema \u2014 should I delay any foods?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, no delay advised",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_ASIA13",
+    "parent_question": "What's considered 'severe eczema' under the APAPARI recommendations?",
+    "baby_age": "general",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA14",
+    "parent_question": "Is there good local (Asian-population) evidence behind these recommendations, or is it mostly borrowed from Western studies?",
+    "baby_age": "general",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, be transparent about evidence gap",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA15",
+    "parent_question": "Should I get a skin-prick test done before introducing egg if my baby has severe eczema and we live somewhere with good allergy specialist access?",
+    "baby_age": "4-10mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA16",
+    "parent_question": "What if I have no access to allergy specialists at all and my baby has severe eczema \u2014 is there still a safe path to introducing egg or peanut?",
+    "baby_age": "4-10mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, describe supervised-challenge alternative, escalate to a trained doctor",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA17",
+    "parent_question": "Does wheat allergy risk mean I should delay wheat-based foods for my baby in Japan or Thailand?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, no delay advised despite higher regional wheat allergy rates",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA18",
+    "parent_question": "Should I keep breastfeeding alongside starting solids?",
+    "baby_age": "around 6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_ASIA19",
+    "parent_question": "Is there a set gram amount or dose APAPARI recommends for introducing egg or peanut, the way NIAID gives 2g peanut protein?",
+    "baby_age": "4-10mo",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, flag as gap \u2014 no specific Asian-population dosing threshold given",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA20",
+    "parent_question": "Does living in Asia versus migrating to Australia change a baby's actual allergy risk, or is that just genetics?",
+    "baby_age": "general",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, note authors favor environment/lifestyle over genetics but can't be fully certain",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA21",
+    "parent_question": "Should peanut sensitization be screened for even if we live somewhere peanut allergy is uncommon?",
+    "baby_age": "4-10mo",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, clarify screening is conditional on local peanut prevalence",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA22",
+    "parent_question": "Are the skin-prick test thresholds from UK/Australian studies directly usable for my baby in Asia?",
+    "baby_age": "4-10mo",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, flag as evidence gap",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA23",
+    "parent_question": "After my baby passes a supervised food challenge, how soon should the food go into their regular diet?",
+    "baby_age": "4-10mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_ASIA24",
+    "parent_question": "If my baby is sensitized and fails a food challenge, does that mean we give up on that food for good?",
+    "baby_age": "4-10mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, clarify short-term avoidance with later re-evaluation, escalate to allergy provider",
+    "category": "APAPARI-specific"
+  },
+  {
+    "question_id": "Q_PUFA01",
+    "parent_question": "Can eating more fish or fish oil during pregnancy lower my baby's risk of asthma or allergies?",
+    "baby_age": "prenatal",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA02",
+    "parent_question": "What dose of omega-3 was used in the study that showed reduced childhood wheeze and asthma?",
+    "baby_age": "prenatal",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, give practical amount",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA03",
+    "parent_question": "Does omega-3 supplementation in pregnancy help prevent eczema in babies?",
+    "baby_age": "prenatal",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA04",
+    "parent_question": "Does omega-3 during pregnancy prevent food allergy in babies?",
+    "baby_age": "prenatal",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions, mostly mixed/heterogeneous",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA05",
+    "parent_question": "Is there a recommended daily amount of omega-3 for pregnant or breastfeeding women for allergy prevention?",
+    "baby_age": "prenatal/lactation",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, give practical amount",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA06",
+    "parent_question": "Should I eat wild or farmed salmon while pregnant for omega-3 benefits?",
+    "baby_age": "prenatal",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface trade-offs (omega-3 content vs contaminants)",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA07",
+    "parent_question": "Are fish oil supplements safe to take while pregnant or breastfeeding?",
+    "baby_age": "prenatal/lactation",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA08",
+    "parent_question": "Does eating fish during my baby's first year help prevent eczema or allergic rhinitis?",
+    "baby_age": "0-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA09",
+    "parent_question": "If I already eat a lot of omega-6 foods (like vegetable oils), does that cancel out any benefit from omega-3?",
+    "baby_age": "prenatal",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, explain omega-6/omega-3 balance concept",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA10",
+    "parent_question": "Is it worth taking an omega-3 supplement if I already eat fish regularly?",
+    "baby_age": "prenatal/lactation",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, note baseline omega-3 status matters",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA11",
+    "parent_question": "How much omega-3 does the SIAIP position paper suggest as a daily target for high-risk pregnancies?",
+    "baby_age": "prenatal",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, give practical amount",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA12",
+    "parent_question": "Does the amount of omega-3 matter, or is any amount of fish oil during pregnancy equally helpful?",
+    "baby_age": "prenatal",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, note dose-response relationship",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA13",
+    "parent_question": "Is omega-3 supplementation an alternative to introducing allergenic solids early?",
+    "baby_age": "0-12mo",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, clarify these are separate, complementary strategies",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA14",
+    "parent_question": "Does maternal fish/shellfish intake during pregnancy raise the baby's allergy risk instead of lowering it?",
+    "baby_age": "prenatal",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface conflicting observational finding",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA15",
+    "parent_question": "My baby's father has asthma \u2014 would taking omega-3 supplements in pregnancy specifically help prevent asthma in the baby?",
+    "baby_age": "prenatal",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, note effect seen mainly with low baseline maternal omega-3 or high hereditary risk",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA16",
+    "parent_question": "What are good food sources of omega-3 EPA and DHA, versus sources that don't convert well?",
+    "baby_age": "general",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA17",
+    "parent_question": "Is there a recommended DHA intake for babies once they start eating solids?",
+    "baby_age": "around 7mo+",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, give practical amount",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA18",
+    "parent_question": "Are there safety concerns with high-dose omega-3 supplements in pregnancy?",
+    "baby_age": "prenatal",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA19",
+    "parent_question": "Does the type of omega-3 product (fish oil vs algae vs krill) matter for allergy prevention?",
+    "baby_age": "prenatal/lactation",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, note quality/purity matters more than source type per this paper",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA20",
+    "parent_question": "I'm vegetarian/vegan \u2014 can I still get enough omega-3 for allergy-prevention purposes?",
+    "baby_age": "prenatal/lactation",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, note algae-derived alternatives",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA21",
+    "parent_question": "Does how I cook fish affect how much omega-3 my baby and I actually get?",
+    "baby_age": "general",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_PUFA22",
+    "parent_question": "Does this position paper recommend a specific supplement brand or product?",
+    "baby_age": "prenatal/lactation",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, clarify no brand named, advise checking EPA/DHA content and quality per dose",
+    "category": "PUFA-specific"
+  },
+  {
+    "question_id": "Q_ELIM01",
+    "parent_question": "Should I avoid eating common allergens like milk, egg, or nuts while pregnant to protect my baby?",
+    "baby_age": "prenatal",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, advise against elimination diets",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_ELIM02",
+    "parent_question": "Does eating peanut myself while pregnant and breastfeeding help protect my baby from peanut allergy?",
+    "baby_age": "prenatal/lactation",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_ELIM03",
+    "parent_question": "Does eating a more varied diet in pregnancy lower my baby's allergy risk?",
+    "baby_age": "prenatal",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_ELIM04",
+    "parent_question": "Does breastfeeding protect my baby against developing food allergy?",
+    "baby_age": "0-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface mixed evidence",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_ELIM05",
+    "parent_question": "Is longer breastfeeding (past 6 months) always better for reducing food allergy risk?",
+    "baby_age": "6mo+",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, note some studies found a U-shaped/increased-risk pattern",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_ELIM06",
+    "parent_question": "Overall, across recent trials, does introducing allergenic foods earlier reduce a baby's risk of food allergy?",
+    "baby_age": "4-12mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, cite meta-analysis",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_ELIM07",
+    "parent_question": "Is there a specific age range where early introduction works best?",
+    "baby_age": "10-12mo vs later",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_ELIM08",
+    "parent_question": "Should I give my baby a little bit of formula in the first few days of life if I'm mostly breastfeeding?",
+    "baby_age": "first days",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface conflicting trial findings",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_ELIM09",
+    "parent_question": "Do partially hydrolyzed 'hypoallergenic' formulas actually prevent allergy?",
+    "baby_age": "0-12mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, note mixed and product-specific evidence",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_ELIM10",
+    "parent_question": "Are all 'hypoallergenic' or partially hydrolyzed formulas the same when it comes to allergy prevention?",
+    "baby_age": "0-12mo",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, clarify formulas are not interchangeable",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_ELIM11",
+    "parent_question": "What do Russian pediatric guidelines say about hypoallergenic diets in pregnancy?",
+    "baby_age": "prenatal",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_ELIM12",
+    "parent_question": "Does my baby's diet during the newborn period affect their tolerance to cow's milk protein later?",
+    "baby_age": "first days-weeks",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, note evidence for a possible 'window of tolerance'",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_ELIM13",
+    "parent_question": "If breastfeeding continues for more than 6 months, could that actually delay when I introduce solids and raise allergy risk indirectly?",
+    "baby_age": "6mo+",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, note this proposed explanation for the U-shaped finding",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_ELIM14",
+    "parent_question": "Should cow's milk formula be avoided completely for a breastfed baby in the first week of life?",
+    "baby_age": "first week",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, surface both positions",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_ELIM15",
+    "parent_question": "Is there evidence that a mother's diet during breastfeeding raises her baby's IgG4 (a tolerance marker) to foods she eats?",
+    "baby_age": "lactation",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_ELIM16",
+    "parent_question": "Does the Russian Union of Pediatricians recommend early allergen introduction the same way Western guidelines do?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_ELIM17",
+    "parent_question": "Is there solid trial evidence, or mostly small/inconsistent studies, behind partially hydrolyzed formula claims?",
+    "baby_age": "0-12mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, note heterogeneous, product-specific evidence",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_ELIM18",
+    "parent_question": "Should a formula be trusted as 'allergy preventive' just because it's labeled hypoallergenic or partially hydrolyzed?",
+    "baby_age": "0-12mo",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, clarify class-wide claims aren't sufficient, need product-specific trials",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_ELIM19",
+    "parent_question": "Is there proof that eating fewer allergenic foods while breastfeeding lowers my baby's allergy risk?",
+    "baby_age": "lactation",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_ELIM20",
+    "parent_question": "Are pregnant women at risk of nutrient deficiency if they follow elimination diets to try to prevent their baby's allergies?",
+    "baby_age": "prenatal",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_ELIM21",
+    "parent_question": "Should exclusively breastfed infants start allergenic solids at a different age than formula-fed infants?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, flag as evidence gap \u2014 no feeding-type-specific timing found",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_ELIM22",
+    "parent_question": "Of all the strategies covered \u2014 early introduction, breastfeeding, hydrolyzed formula \u2014 which has the strongest evidence for preventing food allergy?",
+    "baby_age": "general",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "ELIM-specific"
+  },
+  {
+    "question_id": "Q_EAACI01",
+    "parent_question": "What does the EAACI guideline recommend about introducing egg to prevent egg allergy?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EAACI02",
+    "parent_question": "Should egg be given raw or well-cooked when first introduced?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "EAACI-specific"
+  },
+  {
+    "question_id": "Q_EAACI03",
+    "parent_question": "What does EAACI recommend about introducing peanut?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, note it's conditional on local peanut allergy prevalence",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EAACI04",
+    "parent_question": "Does EAACI recommend avoiding potential allergens during pregnancy or breastfeeding?",
+    "baby_age": "prenatal/lactation",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EAACI05",
+    "parent_question": "Should I supplement my breastfed baby with cow's milk formula in the first week of life?",
+    "baby_age": "first week",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, advise against unless medically needed",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EAACI06",
+    "parent_question": "Does EAACI recommend soy formula for allergy prevention in the first 6 months?",
+    "baby_age": "0-6mo",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "EAACI-specific"
+  },
+  {
+    "question_id": "Q_EAACI07",
+    "parent_question": "Does EAACI have a position on BCG vaccination and food allergy prevention?",
+    "baby_age": "infant",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, clarify BCG still recommended for TB, just not for allergy prevention",
+    "category": "EAACI-specific"
+  },
+  {
+    "question_id": "Q_EAACI08",
+    "parent_question": "Does breastfeeding prevent food allergy, according to EAACI?",
+    "baby_age": "0-6mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, no recommendation either way on allergy specifically, but breastfeeding still encouraged generally",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EAACI09",
+    "parent_question": "Does EAACI recommend a specific hydrolyzed or hypoallergenic formula for allergy prevention?",
+    "baby_age": "0-12mo",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, no recommendation for or against",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EAACI10",
+    "parent_question": "Should I give my baby vitamin supplements or fish oil specifically to prevent food allergy?",
+    "baby_age": "prenatal/infant",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, no recommendation for or against for food allergy specifically",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EAACI11",
+    "parent_question": "Do probiotics or prebiotics for me or my baby help prevent food allergy?",
+    "baby_age": "prenatal/infant",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, no recommendation for or against",
+    "category": "EAACI-specific"
+  },
+  {
+    "question_id": "Q_EAACI12",
+    "parent_question": "Will using daily emollient/moisturizer on my baby's skin prevent food allergy?",
+    "baby_age": "infant",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, no recommendation for or against, note a later trial found no benefit",
+    "category": "EAACI-specific"
+  },
+  {
+    "question_id": "Q_EAACI13",
+    "parent_question": "How much egg protein per week is the EAACI recommendation based on?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, give practical amount",
+    "category": "EAACI-specific"
+  },
+  {
+    "question_id": "Q_EAACI14",
+    "parent_question": "How much peanut protein per week is the EAACI recommendation based on?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, give practical amount",
+    "category": "EAACI-specific"
+  },
+  {
+    "question_id": "Q_EAACI15",
+    "parent_question": "How confident is EAACI in the egg recommendation \u2014 is it a strong 'must-do' or more of a conditional suggestion?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, explain GRADE certainty level",
+    "category": "EAACI-specific"
+  },
+  {
+    "question_id": "Q_EAACI16",
+    "parent_question": "How confident is EAACI in the peanut recommendation?",
+    "baby_age": "4-6mo",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, explain GRADE certainty level and regional caveat",
+    "category": "EAACI-specific"
+  },
+  {
+    "question_id": "Q_EAACI17",
+    "parent_question": "Does EAACI recommend preventive oral immunotherapy for babies who haven't developed a food allergy yet?",
+    "baby_age": "infant",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, no recommendation for or against, evidence too uncertain",
+    "category": "EAACI-specific"
+  },
+  {
+    "question_id": "Q_EAACI18",
+    "parent_question": "Is it fine for my breastfed baby to get regular cow's milk formula occasionally after the first week of life?",
+    "baby_age": "1wk+",
+    "expected_classification": "Partial",
+    "expected_answer_type": "Standard answer + source list, no recommendation for or against after week 1",
+    "category": "EAACI-specific"
+  },
+  {
+    "question_id": "Q_EAACI19",
+    "parent_question": "Does EAACI say what age range these recommendations apply to?",
+    "baby_age": "0-5y",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EAACI20",
+    "parent_question": "Do these EAACI recommendations apply to babies who already have symptoms suggesting a food allergy?",
+    "baby_age": "infant",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, escalate \u2014 refer to specialist, guideline is for prevention not treatment",
+    "category": "Core/shared"
+  },
+  {
+    "question_id": "Q_EAACI21",
+    "parent_question": "Was every EAACI recommendation agreed on unanimously by the guideline panel?",
+    "baby_age": "general",
+    "expected_classification": "Supported",
+    "expected_answer_type": "Standard answer + source list, note the one exception (peanut timing) was a majority vote",
+    "category": "EAACI-specific"
+  },
+  {
+    "question_id": "Q_EAACI22",
+    "parent_question": "Does EAACI give specific guidance for premature babies or adjusted/corrected age?",
+    "baby_age": "preterm infant",
+    "expected_classification": "Unsupported",
+    "expected_answer_type": "Standard answer + source list, flag as evidence gap, escalate to pediatrician/neonatal team",
+    "category": "EAACI-specific"
+  }
+]
