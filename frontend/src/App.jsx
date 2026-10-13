@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { Profiler, useState } from "react";
 import "./App.css";
 
 import {
@@ -13,6 +13,7 @@ import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import Home from "./pages/Home";
 import Chat from "./pages/Chat";
+import Profile from "./pages/Profile";
 // import axios from "axios";
 
 function App() {
@@ -63,6 +64,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home user={user} />} />
           <Route path="/chat" element={<Chat user={user} />} />
+          <Route path="/profile" element={<Profile user={user} />} />
 
           <Route
             path="/login"

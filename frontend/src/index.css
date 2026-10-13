@@ -1039,3 +1039,379 @@ body {
   background: #eeeaff;
   color: #6c63c7;
 }
+
+/* Baby profiles page */
+.profile-page {
+  min-height: 100vh;
+  padding: 35px;
+  background: #f8f9fc;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 30px;
+}
+
+.profile-heading-icon {
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  background: #e8f3f5;
+  color: #3f8491;
+  font-size: 26px;
+}
+
+.profile-header h1 {
+  margin: 0 0 6px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #263238;
+}
+
+.profile-header p {
+  margin: 0;
+  color: #7b8790;
+  line-height: 1.6;
+}
+
+.profile-layout {
+  display: grid;
+  grid-template-columns: 350px minmax(0, 650px);
+  gap: 24px;
+  align-items: start;
+}
+
+.profile-list-card,
+.profile-form-card {
+  min-width: 0;
+  padding: 25px;
+  background: white;
+  border: 1px solid #edf0f2;
+  border-radius: 18px;
+  box-shadow: 0 5px 20px rgba(30, 50, 60, 0.04);
+}
+
+.profile-list-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.profile-list-heading h2,
+.profile-form-heading h2 {
+  margin: 0;
+  font-size: 19px;
+  font-weight: 700;
+  color: #263238;
+}
+
+.profile-add-button,
+.profile-save-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: none;
+  border-radius: 9px;
+  background: #3f8491;
+  color: white;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.profile-add-button:hover,
+.profile-save-button:hover {
+  background: #326f7b;
+}
+
+.profile-empty {
+  color: #89939a;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.baby-profile-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.baby-profile-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #edf0f2;
+  border-radius: 12px;
+  background: white;
+  text-align: left;
+  cursor: pointer;
+}
+
+.baby-profile-item:hover,
+.baby-profile-item.selected {
+  background: #f0f8f9;
+  border-color: #a8cdd2;
+}
+
+.baby-avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  background: #e8f3f5;
+  color: #3f8491;
+  font-size: 20px;
+}
+
+.baby-profile-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+  flex: 1;
+}
+
+.baby-profile-info strong {
+  overflow-wrap: anywhere;
+  font-size: 13px;
+  color: #344054;
+}
+
+.baby-profile-info small {
+  color: #89939a;
+  font-size: 11px;
+}
+
+.profile-selected-icon {
+  flex-shrink: 0;
+  color: #3f8491;
+}
+
+.demo-profile-section {
+  margin-top: 25px;
+  padding-top: 20px;
+  border-top: 1px solid #edf0f2;
+}
+
+.demo-profile-section h3 {
+  margin-bottom: 12px;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.demo-profile-section button {
+  display: block;
+  width: 100%;
+  margin-bottom: 8px;
+  padding: 9px 12px;
+  border: 1px solid #dcebed;
+  border-radius: 8px;
+  background: white;
+  color: #3f8491;
+  text-align: left;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.demo-profile-section button:hover {
+  background: #e8f3f5;
+}
+
+.demo-profile-section p {
+  margin: 12px 0 0;
+  color: #89939a;
+  font-size: 11px;
+  line-height: 1.6;
+}
+
+.profile-form-heading {
+  margin-bottom: 25px;
+}
+
+.profile-form-heading p {
+  margin: 6px 0 0;
+  color: #89939a;
+  font-size: 13px;
+}
+
+.profile-field {
+  min-width: 0;
+  margin-bottom: 20px;
+}
+
+.profile-field > label,
+.allergy-field legend {
+  display: block;
+  margin-bottom: 8px;
+  color: #344054;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.profile-field input:not([type="checkbox"]),
+.profile-field select {
+  display: block;
+  width: 100%;
+  min-height: 44px;
+  padding: 10px 12px;
+  border: 1px solid #dfe5e8;
+  border-radius: 9px;
+  background: white;
+  color: #344054;
+  font-size: 14px;
+  outline: none;
+}
+
+.profile-field input:focus,
+.profile-field select:focus {
+  border-color: #3f8491;
+  box-shadow: 0 0 0 3px rgba(63, 132, 145, 0.1);
+}
+
+.allergy-field {
+  padding: 16px;
+  border: 1px solid #dfe5e8;
+  border-radius: 12px;
+}
+
+.allergy-field legend {
+  float: none;
+  width: auto;
+  padding: 0 5px;
+}
+
+.allergy-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.allergy-option {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  color: #59656d;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.allergy-option input {
+  width: 16px;
+  height: 16px;
+  accent-color: #3f8491;
+}
+
+.allergy-field > small {
+  display: block;
+  margin-top: 12px;
+  color: #89939a;
+  font-size: 11px;
+}
+
+.profile-form-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 25px;
+}
+
+.profile-save-button {
+  min-height: 44px;
+  padding: 11px 20px;
+  font-size: 14px;
+}
+
+.profile-delete-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 10px 15px;
+  border: 1px solid #f0d3d5;
+  border-radius: 9px;
+  background: white;
+  color: #d9535f;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.profile-delete-button:hover {
+  background: #fff1f1;
+}
+
+.profile-saved-message {
+  margin: 15px 0 0;
+  font-size: 13px;
+}
+
+.profile-saved-message.success {
+  color: #2e8b57;
+}
+
+.profile-saved-message.error {
+  color: #d9535f;
+}
+
+@media (max-width: 1000px) {
+  .profile-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-list-card {
+    order: 1;
+  }
+
+  .profile-form-card {
+    order: 2;
+  }
+
+  .baby-profile-list {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .profile-page {
+    padding: 85px 18px 25px;
+  }
+
+  .profile-header {
+    align-items: flex-start;
+  }
+
+  .profile-header h1 {
+    font-size: 23px;
+  }
+
+  .profile-list-card,
+  .profile-form-card {
+    padding: 18px;
+  }
+
+  .baby-profile-list {
+    grid-template-columns: 1fr;
+  }
+
+  .allergy-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
