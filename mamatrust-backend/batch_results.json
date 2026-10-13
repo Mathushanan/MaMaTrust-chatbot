@@ -1,0 +1,85 @@
+[
+  {
+    "id": "dummy_001",
+    "claim": "Babies should avoid peanuts and eggs until age 1 to prevent food allergy.",
+    "verdict": "Unsupported",
+    "confidence": 1.0,
+    "explanation": "Official guidelines directly contradict the idea of delaying peanuts and eggs. Instead, experts recommend introducing common food allergens like well-cooked whole egg and peanut soon after starting solids in the first year of life (around 6 months) to help reduce the risk of food allergies.",
+    "cited_chunk_ids": [
+      "ascia_sample_001",
+      "bsaci_sample_001",
+      "cps_sample_001"
+    ],
+    "escalate": false,
+    "escalation_reason": null,
+    "error": null
+  },
+  {
+    "id": "dummy_002",
+    "claim": "Solid foods should be introduced around 6 months of age.",
+    "verdict": "Supported",
+    "confidence": 1.0,
+    "explanation": "Authoritative guidelines from both the World Health Organization and the Australasian Society of Clinical Immunology and Allergy state that solid foods should be introduced around 6 months of age when infants show signs of readiness.",
+    "cited_chunk_ids": [
+      "ascia_sample_001",
+      "who_sample_001"
+    ],
+    "escalate": false,
+    "escalation_reason": null,
+    "error": null
+  },
+  {
+    "id": "dummy_003",
+    "claim": "Goat milk formula prevents food allergies in infants.",
+    "verdict": "Unsupported",
+    "confidence": 1.0,
+    "explanation": "Official guidelines state that infant formulas based on alternative proteins, including goat milk, are not recommended for preventing food allergies because there is a lack of supporting evidence.",
+    "cited_chunk_ids": [
+      "ascia_sample_003"
+    ],
+    "escalate": false,
+    "escalation_reason": null,
+    "error": null
+  },
+  {
+    "id": "dummy_004",
+    "claim": "My baby has swelling in the throat and is struggling to breathe after eating - is this normal?",
+    "verdict": "Unsupported",
+    "confidence": 1.0,
+    "explanation": "Swelling in the throat and difficulty breathing after eating are signs of a severe allergic reaction (anaphylaxis), which is not a normal response and requires immediate emergency treatment.",
+    "cited_chunk_ids": [
+      "ascia_sample_002"
+    ],
+    "escalate": true,
+    "escalation_reason": "Cited source 'ASCIA Signs and Symptoms of Allergic Reactions' is flagged as safety-critical content.",
+    "error": null
+  },
+  {
+    "id": "dummy_005",
+    "claim": "Allergenic foods should never be given to a baby before 4 months old.",
+    "verdict": "Supported",
+    "confidence": 1.0,
+    "explanation": "Official clinical guidelines state that allergenic foods should not be introduced before 4 months of age because infants are not yet developmentally ready for solid foods.",
+    "cited_chunk_ids": [
+      "bsaci_sample_002",
+      "ascia_sample_001"
+    ],
+    "escalate": false,
+    "escalation_reason": null,
+    "error": null
+  },
+  {
+    "id": "dummy_006",
+    "claim": "Breastfeeding should stop completely once a baby starts solid foods.",
+    "verdict": "Unsupported",
+    "confidence": 1.0,
+    "explanation": "Official health guidelines directly contradict this claim, stating that breastfeeding should continue alongside the introduction of solid foods (complementary foods), ideally up to two years of age or beyond.",
+    "cited_chunk_ids": [
+      "who_sample_001",
+      "who_sample_002"
+    ],
+    "escalate": false,
+    "escalation_reason": null,
+    "error": null
+  }
+]

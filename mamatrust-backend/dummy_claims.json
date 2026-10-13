@@ -1,0 +1,26 @@
+[
+  {
+    "id": "dummy_001",
+    "claim": "Babies should avoid peanuts and eggs until age 1 to prevent food allergy."
+  },
+  {
+    "id": "dummy_002",
+    "claim": "Solid foods should be introduced around 6 months of age."
+  },
+  {
+    "id": "dummy_003",
+    "claim": "Goat milk formula prevents food allergies in infants."
+  },
+  {
+    "id": "dummy_004",
+    "claim": "My baby has swelling in the throat and is struggling to breathe after eating - is this normal?"
+  },
+  {
+    "id": "dummy_005",
+    "claim": "Allergenic foods should never be given to a baby before 4 months old."
+  },
+  {
+    "id": "dummy_006",
+    "claim": "Breastfeeding should stop completely once a baby starts solid foods."
+  }
+]
