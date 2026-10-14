@@ -52,8 +52,7 @@ const CLASSIFICATIONS = {
 
 /*
  * DEMO DATA
- * These are illustrative UI examples, not verified evidence assessments.
- * Replace these responses with real backend results when the API is ready.
+
  */
 const SAMPLE_RESPONSES = [
   {
